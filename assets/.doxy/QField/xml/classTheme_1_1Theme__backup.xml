@@ -1,0 +1,1341 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classTheme_1_1Theme__backup" kind="class" language="C++" prot="public">
+    <compoundname>Theme::Theme_backup</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QtQml::QtObject</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a1e7476998d00f6ff740c281e5b57f7f2" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>var</type>
+        <definition>var Theme::Theme_backup::darkThemeColors</definition>
+        <argsstring></argsstring>
+        <name>darkThemeColors</name>
+        <qualifiedname>Theme::Theme_backup::darkThemeColors</qualifiedname>
+        <read>dummyGetter_darkThemeColors_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="9" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1af1f65dd05ff34a70a93f9a58806632e2" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>var</type>
+        <definition>var Theme::Theme_backup::lightThemeColors</definition>
+        <argsstring></argsstring>
+        <name>lightThemeColors</name>
+        <qualifiedname>Theme::Theme_backup::lightThemeColors</qualifiedname>
+        <read>dummyGetter_lightThemeColors_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="11" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1ab49144c4b8a64497cab3f9366f5a565e" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Theme::Theme_backup::darkTheme</definition>
+        <argsstring></argsstring>
+        <name>darkTheme</name>
+        <qualifiedname>Theme::Theme_backup::darkTheme</qualifiedname>
+        <read>dummyGetter_darkTheme_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="13" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a1d9d056e9cc494860c5f5d055988d6d7" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::mainColor</definition>
+        <argsstring></argsstring>
+        <name>mainColor</name>
+        <qualifiedname>Theme::Theme_backup::mainColor</qualifiedname>
+        <read>dummyGetter_mainColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="15" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1ac00bad6baee5690890ec89411a85c547" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::mainColorSemiOpaque</definition>
+        <argsstring></argsstring>
+        <name>mainColorSemiOpaque</name>
+        <qualifiedname>Theme::Theme_backup::mainColorSemiOpaque</qualifiedname>
+        <read>dummyGetter_mainColorSemiOpaque_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="17" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a3f0f38b2676741c1744ba4739b53d1ce" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::mainOverlayColor</definition>
+        <argsstring></argsstring>
+        <name>mainOverlayColor</name>
+        <qualifiedname>Theme::Theme_backup::mainOverlayColor</qualifiedname>
+        <read>dummyGetter_mainOverlayColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="19" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1aea9ba4e405b8a00a10cef506f6d432db" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::mainBackgroundColor</definition>
+        <argsstring></argsstring>
+        <name>mainBackgroundColor</name>
+        <qualifiedname>Theme::Theme_backup::mainBackgroundColor</qualifiedname>
+        <read>dummyGetter_mainBackgroundColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="21" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a4766b5a7aac10c5ae840e532dd6014fb" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::mainBackgroundColorSemiOpaque</definition>
+        <argsstring></argsstring>
+        <name>mainBackgroundColorSemiOpaque</name>
+        <qualifiedname>Theme::Theme_backup::mainBackgroundColorSemiOpaque</qualifiedname>
+        <read>dummyGetter_mainBackgroundColorSemiOpaque_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="23" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1af7da83db886fd89acc9a51ae1dc38841" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::mainTextColor</definition>
+        <argsstring></argsstring>
+        <name>mainTextColor</name>
+        <qualifiedname>Theme::Theme_backup::mainTextColor</qualifiedname>
+        <read>dummyGetter_mainTextColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="25" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1ac57fb8280ac5893e1e0b34de7218789f" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::mainTextDisabledColor</definition>
+        <argsstring></argsstring>
+        <name>mainTextDisabledColor</name>
+        <qualifiedname>Theme::Theme_backup::mainTextDisabledColor</qualifiedname>
+        <read>dummyGetter_mainTextDisabledColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="27" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1ae5df46d3ebde770e8587f6139dad4693" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::secondaryTextColor</definition>
+        <argsstring></argsstring>
+        <name>secondaryTextColor</name>
+        <qualifiedname>Theme::Theme_backup::secondaryTextColor</qualifiedname>
+        <read>dummyGetter_secondaryTextColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="29" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1af8e42387bcdf8fd37c964c4f82c380a9" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::controlBackgroundColor</definition>
+        <argsstring></argsstring>
+        <name>controlBackgroundColor</name>
+        <qualifiedname>Theme::Theme_backup::controlBackgroundColor</qualifiedname>
+        <read>dummyGetter_controlBackgroundColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="31" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1ae3e51c069b1fdc0afe0e4ee4dc425654" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::controlBackgroundAlternateColor</definition>
+        <argsstring></argsstring>
+        <name>controlBackgroundAlternateColor</name>
+        <qualifiedname>Theme::Theme_backup::controlBackgroundAlternateColor</qualifiedname>
+        <read>dummyGetter_controlBackgroundAlternateColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="33" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1aec327609ae5407c16e1e2e1cfc6ba893" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::controlBackgroundDisabledColor</definition>
+        <argsstring></argsstring>
+        <name>controlBackgroundDisabledColor</name>
+        <qualifiedname>Theme::Theme_backup::controlBackgroundDisabledColor</qualifiedname>
+        <read>dummyGetter_controlBackgroundDisabledColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="35" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a6457138f9e64f6bf1127fb3cd87fb663" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::controlBorderColor</definition>
+        <argsstring></argsstring>
+        <name>controlBorderColor</name>
+        <qualifiedname>Theme::Theme_backup::controlBorderColor</qualifiedname>
+        <read>dummyGetter_controlBorderColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="37" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a5c65ae5ef43e8db73fdcf7f186c3c1ab" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::buttonTextColor</definition>
+        <argsstring></argsstring>
+        <name>buttonTextColor</name>
+        <qualifiedname>Theme::Theme_backup::buttonTextColor</qualifiedname>
+        <read>dummyGetter_buttonTextColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="39" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1ab78f3e517bc9fb2c6fde35b01db133eb" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::toolButtonColor</definition>
+        <argsstring></argsstring>
+        <name>toolButtonColor</name>
+        <qualifiedname>Theme::Theme_backup::toolButtonColor</qualifiedname>
+        <read>dummyGetter_toolButtonColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="41" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a580f985cacd2234542ccb152b460308a" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::toolButtonBackgroundColor</definition>
+        <argsstring></argsstring>
+        <name>toolButtonBackgroundColor</name>
+        <qualifiedname>Theme::Theme_backup::toolButtonBackgroundColor</qualifiedname>
+        <read>dummyGetter_toolButtonBackgroundColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="43" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1af8de24dfc4fc5cbefc596465ca6e1c23" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::toolButtonBackgroundSemiOpaqueColor</definition>
+        <argsstring></argsstring>
+        <name>toolButtonBackgroundSemiOpaqueColor</name>
+        <qualifiedname>Theme::Theme_backup::toolButtonBackgroundSemiOpaqueColor</qualifiedname>
+        <read>dummyGetter_toolButtonBackgroundSemiOpaqueColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="45" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a355cd59347dab48894de69a581e54563" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::scrollBarBackgroundColor</definition>
+        <argsstring></argsstring>
+        <name>scrollBarBackgroundColor</name>
+        <qualifiedname>Theme::Theme_backup::scrollBarBackgroundColor</qualifiedname>
+        <read>dummyGetter_scrollBarBackgroundColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="47" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1aa5546e465e45372cdc4c42cb7f9d5844" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::groupBoxBackgroundColor</definition>
+        <argsstring></argsstring>
+        <name>groupBoxBackgroundColor</name>
+        <qualifiedname>Theme::Theme_backup::groupBoxBackgroundColor</qualifiedname>
+        <read>dummyGetter_groupBoxBackgroundColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="49" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a1f59ef624d4931cae67fc3cb3756f553" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::groupBoxSurfaceColor</definition>
+        <argsstring></argsstring>
+        <name>groupBoxSurfaceColor</name>
+        <qualifiedname>Theme::Theme_backup::groupBoxSurfaceColor</qualifiedname>
+        <read>dummyGetter_groupBoxSurfaceColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="51" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1aba636de4ff1cb9890a54bee833f7e63f" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::darkRed</definition>
+        <argsstring></argsstring>
+        <name>darkRed</name>
+        <qualifiedname>Theme::Theme_backup::darkRed</qualifiedname>
+        <read>dummyGetter_darkRed_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="53" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a11b5f7b66d03367bb50b9e3ef81b12cd" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::darkGray</definition>
+        <argsstring></argsstring>
+        <name>darkGray</name>
+        <qualifiedname>Theme::Theme_backup::darkGray</qualifiedname>
+        <read>dummyGetter_darkGray_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="55" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1ad9cd99138c8cc2919dca8232ad3e7380" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::darkGraySemiOpaque</definition>
+        <argsstring></argsstring>
+        <name>darkGraySemiOpaque</name>
+        <qualifiedname>Theme::Theme_backup::darkGraySemiOpaque</qualifiedname>
+        <read>dummyGetter_darkGraySemiOpaque_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="57" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a1d29b70bdf11539f99025083bdaaab14" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::gray</definition>
+        <argsstring></argsstring>
+        <name>gray</name>
+        <qualifiedname>Theme::Theme_backup::gray</qualifiedname>
+        <read>dummyGetter_gray_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="59" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1aaab69d7f382aff5a9cba312a09052cd0" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::lightGray</definition>
+        <argsstring></argsstring>
+        <name>lightGray</name>
+        <qualifiedname>Theme::Theme_backup::lightGray</qualifiedname>
+        <read>dummyGetter_lightGray_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="61" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a7178f1fa42db0d2658e3233acef1d889" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::lightestGray</definition>
+        <argsstring></argsstring>
+        <name>lightestGray</name>
+        <qualifiedname>Theme::Theme_backup::lightestGray</qualifiedname>
+        <read>dummyGetter_lightestGray_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="63" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1ab1571e36eb80e5149d87e5565bc1214a" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::lightestGraySemiOpaque</definition>
+        <argsstring></argsstring>
+        <name>lightestGraySemiOpaque</name>
+        <qualifiedname>Theme::Theme_backup::lightestGraySemiOpaque</qualifiedname>
+        <read>dummyGetter_lightestGraySemiOpaque_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="65" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1ae03fa6e84bd77e8457fabf9d98d34997" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::light</definition>
+        <argsstring></argsstring>
+        <name>light</name>
+        <qualifiedname>Theme::Theme_backup::light</qualifiedname>
+        <read>dummyGetter_light_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="67" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a33ba07fa90dd7c35a9d662c7e73ac4fe" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::errorColor</definition>
+        <argsstring></argsstring>
+        <name>errorColor</name>
+        <qualifiedname>Theme::Theme_backup::errorColor</qualifiedname>
+        <read>dummyGetter_errorColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="69" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a5ad5c476a6111a56d9f1b7ca223a46d1" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::warningColor</definition>
+        <argsstring></argsstring>
+        <name>warningColor</name>
+        <qualifiedname>Theme::Theme_backup::warningColor</qualifiedname>
+        <read>dummyGetter_warningColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="71" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a9fd71e646cf63437f5b0f0c3999272dd" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::cloudColor</definition>
+        <argsstring></argsstring>
+        <name>cloudColor</name>
+        <qualifiedname>Theme::Theme_backup::cloudColor</qualifiedname>
+        <read>dummyGetter_cloudColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="73" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1aa6c47652bea39e7a8e4ff22e19823fb5" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::positionColor</definition>
+        <argsstring></argsstring>
+        <name>positionColor</name>
+        <qualifiedname>Theme::Theme_backup::positionColor</qualifiedname>
+        <read>dummyGetter_positionColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="75" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1aee436a17a8b0e93c22013aa0961de4d4" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::positionColorSemiOpaque</definition>
+        <argsstring></argsstring>
+        <name>positionColorSemiOpaque</name>
+        <qualifiedname>Theme::Theme_backup::positionColorSemiOpaque</qualifiedname>
+        <read>dummyGetter_positionColorSemiOpaque_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="77" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a0c4c59bbef1ba24bd9b4252ceaedf0e3" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::positionBackgroundColor</definition>
+        <argsstring></argsstring>
+        <name>positionBackgroundColor</name>
+        <qualifiedname>Theme::Theme_backup::positionBackgroundColor</qualifiedname>
+        <read>dummyGetter_positionBackgroundColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="79" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a9ea9fa1cefb7e4f3dcb600731fd37e77" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::darkPositionColor</definition>
+        <argsstring></argsstring>
+        <name>darkPositionColor</name>
+        <qualifiedname>Theme::Theme_backup::darkPositionColor</qualifiedname>
+        <read>dummyGetter_darkPositionColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="81" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1ab40f8a8089a85d5364da3aea93f23466" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::darkPositionColorSemiOpaque</definition>
+        <argsstring></argsstring>
+        <name>darkPositionColorSemiOpaque</name>
+        <qualifiedname>Theme::Theme_backup::darkPositionColorSemiOpaque</qualifiedname>
+        <read>dummyGetter_darkPositionColorSemiOpaque_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="83" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a9b385a2b04514b125ba7fc2ed1c64420" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::accuracyBad</definition>
+        <argsstring></argsstring>
+        <name>accuracyBad</name>
+        <qualifiedname>Theme::Theme_backup::accuracyBad</qualifiedname>
+        <read>dummyGetter_accuracyBad_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="85" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1aa471ca3f865661d7275dcf190b553580" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::accuracyTolerated</definition>
+        <argsstring></argsstring>
+        <name>accuracyTolerated</name>
+        <qualifiedname>Theme::Theme_backup::accuracyTolerated</qualifiedname>
+        <read>dummyGetter_accuracyTolerated_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="87" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a181938cd2d31226f94f5b510d4bca9d6" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::accuracyExcellent</definition>
+        <argsstring></argsstring>
+        <name>accuracyExcellent</name>
+        <qualifiedname>Theme::Theme_backup::accuracyExcellent</qualifiedname>
+        <read>dummyGetter_accuracyExcellent_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="89" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a1ef968adea34eba18a42a69d6095d3ad" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::navigationColor</definition>
+        <argsstring></argsstring>
+        <name>navigationColor</name>
+        <qualifiedname>Theme::Theme_backup::navigationColor</qualifiedname>
+        <read>dummyGetter_navigationColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="91" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a33687cdd10ed84f16c9fccdaadbeeae2" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::navigationColorSemiOpaque</definition>
+        <argsstring></argsstring>
+        <name>navigationColorSemiOpaque</name>
+        <qualifiedname>Theme::Theme_backup::navigationColorSemiOpaque</qualifiedname>
+        <read>dummyGetter_navigationColorSemiOpaque_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="93" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a7f5fd79d905e615276a4cb08f6b04c25" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::navigationBackgroundColor</definition>
+        <argsstring></argsstring>
+        <name>navigationBackgroundColor</name>
+        <qualifiedname>Theme::Theme_backup::navigationBackgroundColor</qualifiedname>
+        <read>dummyGetter_navigationBackgroundColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="95" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a283440bd98f9e149d5a26c821312e359" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::sensorBackgroundColor</definition>
+        <argsstring></argsstring>
+        <name>sensorBackgroundColor</name>
+        <qualifiedname>Theme::Theme_backup::sensorBackgroundColor</qualifiedname>
+        <read>dummyGetter_sensorBackgroundColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="97" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a19b6db37a7d7b26bf2e4994f8378500f" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::bookmarkDefault</definition>
+        <argsstring></argsstring>
+        <name>bookmarkDefault</name>
+        <qualifiedname>Theme::Theme_backup::bookmarkDefault</qualifiedname>
+        <read>dummyGetter_bookmarkDefault_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="99" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1aca880a9d952a7fa349517c935105ca0f" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::bookmarkOrange</definition>
+        <argsstring></argsstring>
+        <name>bookmarkOrange</name>
+        <qualifiedname>Theme::Theme_backup::bookmarkOrange</qualifiedname>
+        <read>dummyGetter_bookmarkOrange_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="101" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a702f22a10cdc46834e58ef3422723646" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::bookmarkRed</definition>
+        <argsstring></argsstring>
+        <name>bookmarkRed</name>
+        <qualifiedname>Theme::Theme_backup::bookmarkRed</qualifiedname>
+        <read>dummyGetter_bookmarkRed_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="103" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1add545d59c036bd30ec921432f934d0ff" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::bookmarkBlue</definition>
+        <argsstring></argsstring>
+        <name>bookmarkBlue</name>
+        <qualifiedname>Theme::Theme_backup::bookmarkBlue</qualifiedname>
+        <read>dummyGetter_bookmarkBlue_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="105" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a249cfc8f3dcb8cb8ea8f601a20b97d2c" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::vertexColor</definition>
+        <argsstring></argsstring>
+        <name>vertexColor</name>
+        <qualifiedname>Theme::Theme_backup::vertexColor</qualifiedname>
+        <read>dummyGetter_vertexColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="107" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a3a2d36d2d834ca14c02a7012888c3f75" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::vertexColorSemiOpaque</definition>
+        <argsstring></argsstring>
+        <name>vertexColorSemiOpaque</name>
+        <qualifiedname>Theme::Theme_backup::vertexColorSemiOpaque</qualifiedname>
+        <read>dummyGetter_vertexColorSemiOpaque_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="109" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a9569f5f9fb63548480e878012e574f9e" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::vertexSelectedColor</definition>
+        <argsstring></argsstring>
+        <name>vertexSelectedColor</name>
+        <qualifiedname>Theme::Theme_backup::vertexSelectedColor</qualifiedname>
+        <read>dummyGetter_vertexSelectedColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="111" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a525efeb2e6d59ff0c1be821d35d0ea43" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::vertexSelectedColorSemiOpaque</definition>
+        <argsstring></argsstring>
+        <name>vertexSelectedColorSemiOpaque</name>
+        <qualifiedname>Theme::Theme_backup::vertexSelectedColorSemiOpaque</qualifiedname>
+        <read>dummyGetter_vertexSelectedColorSemiOpaque_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="113" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a9dd2b4e3a86e2e41ddc2409b5c4cf03d" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::vertexNewColor</definition>
+        <argsstring></argsstring>
+        <name>vertexNewColor</name>
+        <qualifiedname>Theme::Theme_backup::vertexNewColor</qualifiedname>
+        <read>dummyGetter_vertexNewColor_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="115" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a7c26aea50d72a078dab5cd3a2ca38580" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::vertexNewColorSemiOpaque</definition>
+        <argsstring></argsstring>
+        <name>vertexNewColorSemiOpaque</name>
+        <qualifiedname>Theme::Theme_backup::vertexNewColorSemiOpaque</qualifiedname>
+        <read>dummyGetter_vertexNewColorSemiOpaque_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="117" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a8bdd50709e3f95d095e3a3f17bf79b15" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>color</type>
+        <definition>color Theme::Theme_backup::processingPreview</definition>
+        <argsstring></argsstring>
+        <name>processingPreview</name>
+        <qualifiedname>Theme::Theme_backup::processingPreview</qualifiedname>
+        <read>dummyGetter_processingPreview_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="119" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1ab8dc2f97009dd6053ecd527c6dbee320" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>real</type>
+        <definition>real Theme::Theme_backup::fontScale</definition>
+        <argsstring></argsstring>
+        <name>fontScale</name>
+        <qualifiedname>Theme::Theme_backup::fontScale</qualifiedname>
+        <read>dummyGetter_fontScale_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="121" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a24449faa1dac66f40ce5891f2a0b6b30" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>font</type>
+        <definition>font Theme::Theme_backup::defaultFont</definition>
+        <argsstring></argsstring>
+        <name>defaultFont</name>
+        <qualifiedname>Theme::Theme_backup::defaultFont</qualifiedname>
+        <read>dummyGetter_defaultFont_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="123" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a4b80ebcda5d980c7e3abdf36396e0ef3" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>font</type>
+        <definition>font Theme::Theme_backup::tinyFont</definition>
+        <argsstring></argsstring>
+        <name>tinyFont</name>
+        <qualifiedname>Theme::Theme_backup::tinyFont</qualifiedname>
+        <read>dummyGetter_tinyFont_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="125" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1ab02c89ad9e2056e31e8ca1ed677d77a9" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>font</type>
+        <definition>font Theme::Theme_backup::tipFont</definition>
+        <argsstring></argsstring>
+        <name>tipFont</name>
+        <qualifiedname>Theme::Theme_backup::tipFont</qualifiedname>
+        <read>dummyGetter_tipFont_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="127" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1aa7bb349a8cf3907a14f08085500a5c0a" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>font</type>
+        <definition>font Theme::Theme_backup::resultFont</definition>
+        <argsstring></argsstring>
+        <name>resultFont</name>
+        <qualifiedname>Theme::Theme_backup::resultFont</qualifiedname>
+        <read>dummyGetter_resultFont_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="129" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a3ca404be48acdeb29585718341e15af7" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>font</type>
+        <definition>font Theme::Theme_backup::strongFont</definition>
+        <argsstring></argsstring>
+        <name>strongFont</name>
+        <qualifiedname>Theme::Theme_backup::strongFont</qualifiedname>
+        <read>dummyGetter_strongFont_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="131" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1ac66635a7df5681d9365a595b852c24c5" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>font</type>
+        <definition>font Theme::Theme_backup::strongTipFont</definition>
+        <argsstring></argsstring>
+        <name>strongTipFont</name>
+        <qualifiedname>Theme::Theme_backup::strongTipFont</qualifiedname>
+        <read>dummyGetter_strongTipFont_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="133" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1aa876c6dae2f026e1ab31246fc788fa9e" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>font</type>
+        <definition>font Theme::Theme_backup::secondaryTitleFont</definition>
+        <argsstring></argsstring>
+        <name>secondaryTitleFont</name>
+        <qualifiedname>Theme::Theme_backup::secondaryTitleFont</qualifiedname>
+        <read>dummyGetter_secondaryTitleFont_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="135" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a7c9a00be418ac0769a42fa71b4286631" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>font</type>
+        <definition>font Theme::Theme_backup::titleFont</definition>
+        <argsstring></argsstring>
+        <name>titleFont</name>
+        <qualifiedname>Theme::Theme_backup::titleFont</qualifiedname>
+        <read>dummyGetter_titleFont_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="137" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1ae351c01efcb6a08d6298b8ae8ff3ec2a" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>font</type>
+        <definition>font Theme::Theme_backup::strongTitleFont</definition>
+        <argsstring></argsstring>
+        <name>strongTitleFont</name>
+        <qualifiedname>Theme::Theme_backup::strongTitleFont</qualifiedname>
+        <read>dummyGetter_strongTitleFont_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="139" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a15359878641827cb3a4d39678889df25" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Theme::Theme_backup::popupScreenEdgeVerticalMargin</definition>
+        <argsstring></argsstring>
+        <name>popupScreenEdgeVerticalMargin</name>
+        <qualifiedname>Theme::Theme_backup::popupScreenEdgeVerticalMargin</qualifiedname>
+        <read>dummyGetter_popupScreenEdgeVerticalMargin_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="remark"><para>This property is read-only </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="142" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1aa8fd68d2124424290d1aeb29fd840923" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Theme::Theme_backup::popupScreenEdgeHorizontalMargin</definition>
+        <argsstring></argsstring>
+        <name>popupScreenEdgeHorizontalMargin</name>
+        <qualifiedname>Theme::Theme_backup::popupScreenEdgeHorizontalMargin</qualifiedname>
+        <read>dummyGetter_popupScreenEdgeHorizontalMargin_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="remark"><para>This property is read-only </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="145" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1a7759632716de594abd7270f33a173eef" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Theme::Theme_backup::menuItemIconlessLeftPadding</definition>
+        <argsstring></argsstring>
+        <name>menuItemIconlessLeftPadding</name>
+        <qualifiedname>Theme::Theme_backup::menuItemIconlessLeftPadding</qualifiedname>
+        <read>dummyGetter_menuItemIconlessLeftPadding_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="remark"><para>This property is read-only </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="148" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1aba5f5e3b66339dfa76866707b6c29bf9" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Theme::Theme_backup::menuItemLeftPadding</definition>
+        <argsstring></argsstring>
+        <name>menuItemLeftPadding</name>
+        <qualifiedname>Theme::Theme_backup::menuItemLeftPadding</qualifiedname>
+        <read>dummyGetter_menuItemLeftPadding_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="remark"><para>This property is read-only </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="151" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classTheme_1_1Theme__backup_1add3a32bd6ee2311f0448f1d9d63c86bd" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Theme::Theme_backup::menuItemCheckLeftPadding</definition>
+        <argsstring></argsstring>
+        <name>menuItemCheckLeftPadding</name>
+        <qualifiedname>Theme::Theme_backup::menuItemCheckLeftPadding</qualifiedname>
+        <read>dummyGetter_menuItemCheckLeftPadding_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="remark"><para>This property is read-only </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="154" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="154" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classTheme_1_1Theme__backup_1abfbc479cc1f5bb44c304672e9205c621" prot="private" static="no" mutable="no">
+        <type>var Component</type>
+        <definition>var Component Theme::Theme_backup::onCompleted</definition>
+        <argsstring></argsstring>
+        <name>onCompleted</name>
+        <qualifiedname>Theme::Theme_backup::onCompleted</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="170" column="14" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="170" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTheme_1_1Theme__backup_1a63b0782a56dca12c261e64d8f3dd7bb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Theme::Theme_backup::getThemeIcon</definition>
+        <argsstring>(name)</argsstring>
+        <name>getThemeIcon</name>
+        <qualifiedname>Theme::Theme_backup::getThemeIcon</qualifiedname>
+        <param>
+          <type>name</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="156" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classTheme_1_1Theme__backup_1a1f5ee96bfe8e2b6eaa719f1291abc5c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Theme::Theme_backup::getThemeVectorIcon</definition>
+        <argsstring>(name)</argsstring>
+        <name>getThemeVectorIcon</name>
+        <qualifiedname>Theme::Theme_backup::getThemeVectorIcon</qualifiedname>
+        <param>
+          <type>name</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="158" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classTheme_1_1Theme__backup_1a0f908e4933114c2a188cffafa475a462" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Theme::Theme_backup::colorToHtml</definition>
+        <argsstring>(color)</argsstring>
+        <name>colorToHtml</name>
+        <qualifiedname>Theme::Theme_backup::colorToHtml</qualifiedname>
+        <param>
+          <type>color</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="160" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classTheme_1_1Theme__backup_1acf2958c85e87541ba463422a9ace26ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Theme::Theme_backup::toInlineStyles</definition>
+        <argsstring>(styleProperties)</argsstring>
+        <name>toInlineStyles</name>
+        <qualifiedname>Theme::Theme_backup::toInlineStyles</qualifiedname>
+        <param>
+          <type>styleProperties</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="162" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classTheme_1_1Theme__backup_1a0e98f44c1645831a5076b2064d05d688" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Theme::Theme_backup::applyColors</definition>
+        <argsstring>(colors)</argsstring>
+        <name>applyColors</name>
+        <qualifiedname>Theme::Theme_backup::applyColors</qualifiedname>
+        <param>
+          <type>colors</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="164" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classTheme_1_1Theme__backup_1ae6cef6d2a40ac9820606c208b883ceb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Theme::Theme_backup::applyAppearance</definition>
+        <argsstring>(colors, baseAppearance)</argsstring>
+        <name>applyAppearance</name>
+        <qualifiedname>Theme::Theme_backup::applyAppearance</qualifiedname>
+        <param>
+          <type>colors</type>
+        </param>
+        <param>
+          <type>baseAppearance</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="166" column="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classTheme_1_1Theme__backup_1a7c31c5246f2135e61d2d94b7de1565a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Theme::Theme_backup::applyFontScale</definition>
+        <argsstring>()</argsstring>
+        <name>applyFontScale</name>
+        <qualifiedname>Theme::Theme_backup::applyFontScale</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/Theme_backup.qml" line="168" column="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="remark"><para>This component is a singleton <linebreak/>
+ <linebreak/>
+<bold>Import Statement</bold> <linebreak/>
+ <programlisting><codeline><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Theme<sp/></highlight></codeline>
+</programlisting> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>QtQml::QtObject</label>
+      </node>
+      <node id="1">
+        <label>Theme::Theme_backup</label>
+        <link refid="classTheme_1_1Theme__backup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>QtQml::QtObject</label>
+      </node>
+      <node id="1">
+        <label>Theme::Theme_backup</label>
+        <link refid="classTheme_1_1Theme__backup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/qml/imports/Theme/Theme_backup.qml" line="6" column="1" bodyfile="src/qml/imports/Theme/Theme_backup.qml" bodystart="6" bodyend="171"/>
+    <listofallmembers>
+      <member refid="classTheme_1_1Theme__backup_1a9b385a2b04514b125ba7fc2ed1c64420" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>accuracyBad</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a181938cd2d31226f94f5b510d4bca9d6" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>accuracyExcellent</name></member>
+      <member refid="classTheme_1_1Theme__backup_1aa471ca3f865661d7275dcf190b553580" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>accuracyTolerated</name></member>
+      <member refid="classTheme_1_1Theme__backup_1ae6cef6d2a40ac9820606c208b883ceb8" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>applyAppearance</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a0e98f44c1645831a5076b2064d05d688" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>applyColors</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a7c31c5246f2135e61d2d94b7de1565a9" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>applyFontScale</name></member>
+      <member refid="classTheme_1_1Theme__backup_1add545d59c036bd30ec921432f934d0ff" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>bookmarkBlue</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a19b6db37a7d7b26bf2e4994f8378500f" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>bookmarkDefault</name></member>
+      <member refid="classTheme_1_1Theme__backup_1aca880a9d952a7fa349517c935105ca0f" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>bookmarkOrange</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a702f22a10cdc46834e58ef3422723646" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>bookmarkRed</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a5c65ae5ef43e8db73fdcf7f186c3c1ab" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>buttonTextColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a9fd71e646cf63437f5b0f0c3999272dd" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>cloudColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a0f908e4933114c2a188cffafa475a462" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>colorToHtml</name></member>
+      <member refid="classTheme_1_1Theme__backup_1ae3e51c069b1fdc0afe0e4ee4dc425654" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>controlBackgroundAlternateColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1af8e42387bcdf8fd37c964c4f82c380a9" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>controlBackgroundColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1aec327609ae5407c16e1e2e1cfc6ba893" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>controlBackgroundDisabledColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a6457138f9e64f6bf1127fb3cd87fb663" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>controlBorderColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a11b5f7b66d03367bb50b9e3ef81b12cd" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>darkGray</name></member>
+      <member refid="classTheme_1_1Theme__backup_1ad9cd99138c8cc2919dca8232ad3e7380" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>darkGraySemiOpaque</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a9ea9fa1cefb7e4f3dcb600731fd37e77" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>darkPositionColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1ab40f8a8089a85d5364da3aea93f23466" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>darkPositionColorSemiOpaque</name></member>
+      <member refid="classTheme_1_1Theme__backup_1aba636de4ff1cb9890a54bee833f7e63f" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>darkRed</name></member>
+      <member refid="classTheme_1_1Theme__backup_1ab49144c4b8a64497cab3f9366f5a565e" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>darkTheme</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a1e7476998d00f6ff740c281e5b57f7f2" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>darkThemeColors</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a24449faa1dac66f40ce5891f2a0b6b30" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>defaultFont</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a33ba07fa90dd7c35a9d662c7e73ac4fe" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>errorColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1ab8dc2f97009dd6053ecd527c6dbee320" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>fontScale</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a63b0782a56dca12c261e64d8f3dd7bb1" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>getThemeIcon</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a1f5ee96bfe8e2b6eaa719f1291abc5c2" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>getThemeVectorIcon</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a1d29b70bdf11539f99025083bdaaab14" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>gray</name></member>
+      <member refid="classTheme_1_1Theme__backup_1aa5546e465e45372cdc4c42cb7f9d5844" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>groupBoxBackgroundColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a1f59ef624d4931cae67fc3cb3756f553" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>groupBoxSurfaceColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1ae03fa6e84bd77e8457fabf9d98d34997" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>light</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a7178f1fa42db0d2658e3233acef1d889" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>lightestGray</name></member>
+      <member refid="classTheme_1_1Theme__backup_1ab1571e36eb80e5149d87e5565bc1214a" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>lightestGraySemiOpaque</name></member>
+      <member refid="classTheme_1_1Theme__backup_1aaab69d7f382aff5a9cba312a09052cd0" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>lightGray</name></member>
+      <member refid="classTheme_1_1Theme__backup_1af1f65dd05ff34a70a93f9a58806632e2" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>lightThemeColors</name></member>
+      <member refid="classTheme_1_1Theme__backup_1aea9ba4e405b8a00a10cef506f6d432db" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>mainBackgroundColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a4766b5a7aac10c5ae840e532dd6014fb" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>mainBackgroundColorSemiOpaque</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a1d9d056e9cc494860c5f5d055988d6d7" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>mainColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1ac00bad6baee5690890ec89411a85c547" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>mainColorSemiOpaque</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a3f0f38b2676741c1744ba4739b53d1ce" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>mainOverlayColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1af7da83db886fd89acc9a51ae1dc38841" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>mainTextColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1ac57fb8280ac5893e1e0b34de7218789f" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>mainTextDisabledColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1add3a32bd6ee2311f0448f1d9d63c86bd" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>menuItemCheckLeftPadding</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a7759632716de594abd7270f33a173eef" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>menuItemIconlessLeftPadding</name></member>
+      <member refid="classTheme_1_1Theme__backup_1aba5f5e3b66339dfa76866707b6c29bf9" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>menuItemLeftPadding</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a7f5fd79d905e615276a4cb08f6b04c25" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>navigationBackgroundColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a1ef968adea34eba18a42a69d6095d3ad" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>navigationColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a33687cdd10ed84f16c9fccdaadbeeae2" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>navigationColorSemiOpaque</name></member>
+      <member refid="classTheme_1_1Theme__backup_1abfbc479cc1f5bb44c304672e9205c621" prot="private" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>onCompleted</name></member>
+      <member refid="classTheme_1_1Theme__backup_1aa8fd68d2124424290d1aeb29fd840923" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>popupScreenEdgeHorizontalMargin</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a15359878641827cb3a4d39678889df25" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>popupScreenEdgeVerticalMargin</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a0c4c59bbef1ba24bd9b4252ceaedf0e3" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>positionBackgroundColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1aa6c47652bea39e7a8e4ff22e19823fb5" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>positionColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1aee436a17a8b0e93c22013aa0961de4d4" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>positionColorSemiOpaque</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a8bdd50709e3f95d095e3a3f17bf79b15" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>processingPreview</name></member>
+      <member refid="classTheme_1_1Theme__backup_1aa7bb349a8cf3907a14f08085500a5c0a" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>resultFont</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a355cd59347dab48894de69a581e54563" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>scrollBarBackgroundColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1ae5df46d3ebde770e8587f6139dad4693" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>secondaryTextColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1aa876c6dae2f026e1ab31246fc788fa9e" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>secondaryTitleFont</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a283440bd98f9e149d5a26c821312e359" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>sensorBackgroundColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a3ca404be48acdeb29585718341e15af7" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>strongFont</name></member>
+      <member refid="classTheme_1_1Theme__backup_1ac66635a7df5681d9365a595b852c24c5" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>strongTipFont</name></member>
+      <member refid="classTheme_1_1Theme__backup_1ae351c01efcb6a08d6298b8ae8ff3ec2a" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>strongTitleFont</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a4b80ebcda5d980c7e3abdf36396e0ef3" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>tinyFont</name></member>
+      <member refid="classTheme_1_1Theme__backup_1ab02c89ad9e2056e31e8ca1ed677d77a9" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>tipFont</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a7c9a00be418ac0769a42fa71b4286631" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>titleFont</name></member>
+      <member refid="classTheme_1_1Theme__backup_1acf2958c85e87541ba463422a9ace26ae" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>toInlineStyles</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a580f985cacd2234542ccb152b460308a" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>toolButtonBackgroundColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1af8de24dfc4fc5cbefc596465ca6e1c23" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>toolButtonBackgroundSemiOpaqueColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1ab78f3e517bc9fb2c6fde35b01db133eb" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>toolButtonColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a249cfc8f3dcb8cb8ea8f601a20b97d2c" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>vertexColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a3a2d36d2d834ca14c02a7012888c3f75" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>vertexColorSemiOpaque</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a9dd2b4e3a86e2e41ddc2409b5c4cf03d" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>vertexNewColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a7c26aea50d72a078dab5cd3a2ca38580" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>vertexNewColorSemiOpaque</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a9569f5f9fb63548480e878012e574f9e" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>vertexSelectedColor</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a525efeb2e6d59ff0c1be821d35d0ea43" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>vertexSelectedColorSemiOpaque</name></member>
+      <member refid="classTheme_1_1Theme__backup_1a5ad5c476a6111a56d9f1b7ca223a46d1" prot="public" virt="non-virtual"><scope>Theme::Theme_backup</scope><name>warningColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
