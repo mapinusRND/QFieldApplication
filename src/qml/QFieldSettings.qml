@@ -1139,7 +1139,8 @@ Page {
                 id: positionFollowModeLabel
                 Layout.fillWidth: true
                 Layout.columnSpan: 2
-                text: qsTr("Behavior when locked to position:")
+                //text: qsTr("Behavior when locked to position:")
+                text: qsTr("현재 위치에 고정 시 동작:")
                 font: Theme.defaultFont
                 color: Theme.mainTextColor
 
@@ -1175,7 +1176,8 @@ Page {
               Label {
                 id: positionFollowModeTipLabel
                 Layout.fillWidth: true
-                text: qsTr("When the map canvas is following or locked to position, it can also rotate to match compass orientation or movement direction.")
+                //text: qsTr("When the map canvas is following or locked to position, it can also rotate to match compass orientation or movement direction.")
+                text: qsTr("지도 화면이 현재 위치를 따라가거나 위치에 고정되어 있을 때, 나침반 방향이나 이동 방향에 맞춰 회전할 수 있습니다.")
                 font: Theme.tipFont
                 color: Theme.secondaryTextColor
 
