@@ -2685,7 +2685,7 @@ ApplicationWindow {
         anchors.right: parent.right
 
         /*
-        / When set to true, the map will follow the device's current position; the map
+        / When set to true, the map will follow the device's current position; the map test
         / will stop following the position whe the user manually drag the map.
         */
         property bool followActive: false
