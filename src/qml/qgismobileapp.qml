@@ -217,6 +217,8 @@ ApplicationWindow {
   property QgsGpkgFlusher gpkgFlusherAlias: gpkgFlusher
 
   signal closeMeasureTool
+  signal close3DView
+
   signal changeMode(string mode)
   signal toggleDigitizeMode
 
@@ -255,9 +257,12 @@ ApplicationWindow {
           currentRubberband: measuringTool.measuringRubberband
         }
         PropertyChanges {
-          target: featureForm
+          target: featureListForm
           state: "Hidden"
         }
+      },
+      State {
+        name: '3d'
       }
     ]
     state: "browse"
@@ -276,9 +281,12 @@ ApplicationWindow {
   }
 
   onChangeMode: mode => {
-    if (stateMachine.state === mode)
+    if (stateMachine.state === mode) {
       return;
-    stateMachine.lastState = stateMachine.state;
+    }
+    if (stateMachine.state !== 'measure' && stateMachine.state !== '3d') {
+      stateMachine.lastState = stateMachine.state;
+    }
     stateMachine.state = mode;
     switch (stateMachine.state) {
     case 'browse':
@@ -305,11 +313,16 @@ ApplicationWindow {
       //displayToast(qsTr('You are now in measure mode'));
       displayToast(qsTr('측정 모드로 전환되었습니다'));
       break;
+    case '3d':
+      break;
     }
   }
 
   onCloseMeasureTool: {
-    overlayFeatureFormDrawer.close();
+    changeMode(stateMachine.lastState);
+  }
+
+  onClose3DView: {
     changeMode(stateMachine.lastState);
   }
 
@@ -353,14 +366,34 @@ ApplicationWindow {
         }
         bearingTrueNorth = PositioningUtils.bearingTrueNorth(positionSource.projectedPosition, mapCanvas.mapSettings.destinationCrs);
         if (gnssButton.followActive) {
-          gnssButton.followLocation(false);
+          if (stateMachine.state === '3d') {
+            if (mapCanvas3DLoader.item) {
+              const pos3d = mapCanvas3DLoader.item.geoTo3D(positionSource.projectedPosition.x, positionSource.projectedPosition.y);
+              if (pos3d !== null) {
+                mapCanvas3DLoader.item.lookAtPoint(pos3d, 1000);
+              } else {
+                // We're now out of the 3D map extent, unfollow
+                mapCanvasMap.unfreeze('follow');
+                gnssButton.followActive = false;
+              }
+            }
+          } else {
+            gnssButton.followLocation(false);
+            // Call followOrientation for movement direction mode
+            if (positioningSettings.positionFollowMode === PositioningSettings.FollowMode.PositionAndDirection) {
+              gnssButton.followOrientation();
+            }
+          }
         }
       }
     }
 
     onOrientationChanged: {
       if (active && gnssButton.followActive) {
-        gnssButton.followOrientation();
+        // Call followOrientation for compass mode
+        if (positioningSettings.positionFollowMode === PositioningSettings.FollowMode.PositionAndCompass) {
+          gnssButton.followOrientation();
+        }
       }
     }
 
@@ -409,10 +442,16 @@ ApplicationWindow {
           positionSource.active = true;
         } else {
           gnssButton.followActive = false;
-          gnssButton.followOrientationActive = false;
           gnssButton.autoRefollow = false;
           positionSource.active = false;
         }
+      }
+    }
+
+    onPositionFollowModeChanged: {
+      // When mode changes while locked, apply orientation immediately
+      if (gnssButton.followActive && gnssButton.followOrientationActive) {
+        gnssButton.followOrientation();
       }
     }
   }
@@ -634,6 +673,85 @@ ApplicationWindow {
       color: mapCanvas.mapSettings.backgroundColor
     }
 
+    Loader {
+      id: mapCanvas3DLoader
+      anchors.fill: parent
+      active: stateMachine.state === '3d'
+      visible: active ? true : false
+      z: 100
+      opacity: active ? 1.0 : 0.0
+
+      Behavior on opacity {
+        NumberAnimation {
+          duration: 300
+          easing.type: Easing.Linear
+        }
+      }
+
+      source: "qrc:/qml/3d/MapCanvas3D.qml"
+
+      onActiveChanged: {
+        if (active) {
+          mapCanvasMap.freeze('3d');
+        } else {
+          mapCanvasMap.unfreeze('3d');
+        }
+      }
+
+      onLoaded: {
+        item.mapSettings = mapCanvas.mapSettings;
+
+        // Bind GNSS position updates
+        item.gnssActive = Qt.binding(() => positionSource.active && positionSource.positionInformation && positionSource.positionInformation.latitudeValid);
+        item.gnssPosition = Qt.binding(() => positionSource.projectedPosition);
+        item.gnssSpeed = Qt.binding(() => positionSource.positionInformation && positionSource.positionInformation.speedValid ? positionSource.positionInformation.speed : -1);
+        item.gnssDirection = Qt.binding(() => positionSource.positionInformation && positionSource.positionInformation.directionValid ? positionSource.positionInformation.direction : -1);
+
+        // Connect camera interaction signal to deactivate soft lock
+        item.cameraInteractionDetected.connect(function () {
+          if (gnssButton.followActive) {
+            mapCanvasMap.unfreeze('follow');
+            gnssButton.followActive = false;
+          }
+        });
+      }
+
+      onStatusChanged: {
+        if (status === Loader.Error) {
+          close3DView();
+          displayToast(qsTr("Failed to load 3D view"));
+        }
+      }
+    }
+
+    Rectangle {
+      id: loadingOverlay
+      anchors.fill: parent
+      color: "#80000000"
+      visible: stateMachine.state === '3d' && mapCanvas3DLoader.item && mapCanvas3DLoader.item.isLoading
+      z: 1000
+
+      Column {
+        anchors.centerIn: parent
+        spacing: 20
+
+        BusyIndicator {
+          anchors.horizontalCenter: parent.horizontalCenter
+          running: parent.parent.visible
+          width: 64
+          height: 64
+        }
+
+        Text {
+          anchors.horizontalCenter: parent.horizontalCenter
+          text: qsTr("Loading terrain...")
+          color: "white"
+          font.pixelSize: 16
+          font.bold: true
+        }
+      }
+    }
+
     GridRenderer {
       mapSettings: mapCanvas.mapSettings
       enabled: !gridDecoration.enabled
@@ -647,7 +765,7 @@ ApplicationWindow {
       id: mapCanvasMap
       objectName: "mapCanvas"
 
-      property bool isEnabled: !dashBoard.opened && !aboutDialog.visible && !welcomeScreen.visible && !qfieldSettings.visible && !qfieldLocalDataPickerScreen.visible && !qfieldCloudScreen.visible && !qfieldCloudPopup.visible && !codeReader.visible && !sketcher.visible && !overlayFeatureFormDrawer.opened && !rotateFeaturesToolbar.rotateFeaturesRequested
+      property bool isEnabled: !mapCanvas3DLoader.active && !dashBoard.opened && !aboutDialog.visible && !welcomeScreen.visible && !qfieldSettings.visible && !qfieldLocalDataPickerScreen.visible && !qfieldCloudScreen.visible && !qfieldCloudPopup.visible && !codeReader.visible && !sketcher.visible && !overlayFeatureFormDrawer.opened && !rotateFeaturesToolbar.rotateFeaturesRequested
 
       interactive: isEnabled && !screenLocker.enabled && !snapToCommonAngleMenu.visible
       isMapRotationEnabled: qfieldSettings.enableMapRotation
@@ -847,17 +965,16 @@ ApplicationWindow {
         if (isPieMenuRequest) {
           actionsPieMenu.identifiedCount = menuFeatureListModel.count;
           isPieMenuRequest = false;
-          return;
-        }
-        if (isMenuRequest) {
+        } else if (isMenuRequest) {
           canvasMenuFeatureListInstantiator.active = true;
-        }
-        if (qfieldSettings.autoOpenFormSingleIdentify && !isMenuRequest && !featureListForm.multiSelection && featureListForm.model.count === 1) {
-          featureListForm.selection.focusedItem = 0;
-          featureListForm.state = "FeatureForm";
-        }
-        if (qfieldSettings.autoZoomToIdentifiedFeature && !isMenuRequest && featureListForm.model.count > 0) {
-          featureListForm.extentController.zoomToAllFeatures();
+        } else {
+          if (qfieldSettings.autoOpenFormSingleIdentify && !featureListForm.multiSelection && featureListForm.model.count === 1) {
+            featureListForm.selection.focusedItem = 0;
+            featureListForm.state = "FeatureForm";
+          }
+          if (qfieldSettings.autoZoomToIdentifiedFeature && featureListForm.model.count > 0) {
+            featureListForm.extentController.zoomToAllFeatures();
+          }
         }
       }
     }
@@ -1137,12 +1254,6 @@ ApplicationWindow {
             identifyTool.isMenuRequest = false;
             identifyTool.isPieMenuRequest = false;
             identifyTool.identify(locationMarker.screenLocation);
-            if (qfieldSettings.autoOpenFormSingleIdentify) {
-              featureListForm.selection.focusedItem = 0;
-              featureListForm.state = "FeatureForm";
-            } else if (featureListForm.model.count > 0) {
-              featureListForm.state = "FeatureList";
-            }
             actionsPieMenu.close();
           }
         }
@@ -1247,8 +1358,19 @@ ApplicationWindow {
             gnssButton.autoRefollow = true;
             gnssButton.followActive = true;
             gnssButton.followLocation(true);
-            //displayToast(qsTr("Map canvas locked to location"));
-            displayToast(qsTr("지도 화면이 현재 위치에 고정되었습니다"));
+            if (positioningSettings.positionFollowMode === PositioningSettings.FollowMode.PositionAndCompass) {
+              displayToast(qsTr("지도 화면이 현재 위치와 나침반 방향에 고정되었습니다"));
+            } else if (positioningSettings.positionFollowMode === PositioningSettings.FollowMode.PositionAndDirection) {
+              displayToast(qsTr("지도 화면이 현재 위치와 이동 방향에 고정되었습니다"));
+            } else {
+              displayToast(qsTr("지도 화면이 현재 위치에 고정되었습니다"));
+            }
+
+            // Apply orientation immediately if enabled
+            if (gnssButton.followOrientationActive) {
+              gnssButton.followOrientation();
+            }
+
           }
           actionsPieMenu.close();
         }
@@ -1775,7 +1897,7 @@ ApplicationWindow {
     QfToolButton {
       id: compassArrow
       rotation: mapCanvas.mapSettings.rotation
-      visible: rotation !== 0
+      visible: rotation !== 0 && stateMachine.state !== '3d'
       anchors.left: parent.left
       anchors.bottom: parent.bottom
       anchors.leftMargin: mainWindow.sceneLeftMargin + 4
@@ -1849,7 +1971,7 @@ ApplicationWindow {
     }
 
     ScaleBar {
-      visible: qfieldSettings.showScaleBar
+      visible: qfieldSettings.showScaleBar && stateMachine.state !== '3d'
       mapSettings: mapCanvas.mapSettings
       anchors.left: parent.left
       anchors.bottom: parent.bottom
@@ -1889,13 +2011,19 @@ ApplicationWindow {
         height: 36
 
         onClicked: {
-          if (gnssButton.followActive) {
-            gnssButton.followActiveSkipExtentChanged = true;
-          }
-          mapCanvasMap.zoomIn(Qt.point(mapCanvas.x + (mapCanvas.width - mapCanvasMap.rightMargin) / 2, mapCanvas.y + (mapCanvas.height - mapCanvasMap.bottomMargin) / 2));
-          if (gnssButton.followActive) {
-            // Trigger a mao redraw
-            gnssButton.followLocation(true);
+          if (stateMachine.state === '3d') {
+            if (mapCanvas3DLoader.item) {
+              mapCanvas3DLoader.item.zoomIn();
+            }
+          } else {
+            if (gnssButton.followActive) {
+              gnssButton.followActiveSkipExtentChanged = true;
+            }
+            mapCanvasMap.zoomIn(Qt.point(mapCanvas.x + (mapCanvas.width - mapCanvasMap.rightMargin) / 2, mapCanvas.y + (mapCanvas.height - mapCanvasMap.bottomMargin) / 2));
+            if (gnssButton.followActive) {
+              // Trigger a map redraw
+              gnssButton.followLocation(true);
+            }
           }
         }
       }
@@ -1912,13 +2040,19 @@ ApplicationWindow {
         height: 36
 
         onClicked: {
-          if (gnssButton.followActive) {
-            gnssButton.followActiveSkipExtentChanged = true;
-          }
-          mapCanvasMap.zoomOut(Qt.point(mapCanvas.x + (mapCanvas.width - mapCanvasMap.rightMargin) / 2, mapCanvas.y + (mapCanvas.height - mapCanvasMap.bottomMargin) / 2));
-          if (gnssButton.followActive) {
-            // Trigger a mao redraw
-            gnssButton.followLocation(true);
+          if (stateMachine.state === '3d') {
+            if (mapCanvas3DLoader.item) {
+              mapCanvas3DLoader.item.zoomOut();
+            }
+          } else {
+            if (gnssButton.followActive) {
+              gnssButton.followActiveSkipExtentChanged = true;
+            }
+            mapCanvasMap.zoomOut(Qt.point(mapCanvas.x + (mapCanvas.width - mapCanvasMap.rightMargin) / 2, mapCanvas.y + (mapCanvas.height - mapCanvasMap.bottomMargin) / 2));
+            if (gnssButton.followActive) {
+              // Trigger a map redraw
+              gnssButton.followLocation(true);
+            }
           }
         }
       }
@@ -1999,6 +2133,23 @@ ApplicationWindow {
         toolText: qsTr('측정 도구 닫기')
 
         onClicked: mainWindow.closeMeasureTool()
+      }
+
+      QfActionButton {
+        id: close3DView
+        visible: stateMachine.state === '3d'
+        toolImage: Theme.getThemeVectorIcon("ic_3d_24dp")
+        toolText: qsTr('Close 3D view')
+
+        onClicked: {
+          if (mapCanvas3DLoader.item && mapCanvas3DLoader.item.playClosingAnimation) {
+            mapCanvas3DLoader.item.playClosingAnimation(function () {
+              mainWindow.close3DView();
+            });
+          } else {
+            mainWindow.close3DView();
+          }
+        }
       }
 
       QfActionButton {
@@ -2544,9 +2695,9 @@ ApplicationWindow {
         */
         property bool followActiveSkipExtentChanged: false
         /*
-        / When set to true, the map will rotate to match the device's current magnetometer/compass orientatin.
+        / When set to true, the map will rotate to match the device's orientation (compass or movement direction based on setting).
         */
-        property bool followOrientationActive: false
+        property bool followOrientationActive: followActive && qfieldSettings.enableMapRotation && positioningSettings.positionFollowMode !== PositioningSettings.FollowMode.PositionOnly
         /*
         / When set to true, map canvas rotation changes will not result in the
         / deactivation of the above followOrientationActive mode.
@@ -2579,6 +2730,11 @@ ApplicationWindow {
         ]
 
         onClicked: {
+          if (!positionSource.active) {
+            positionSource.jumpToPosition = true;
+            positioningSettings.positioningActivated = true;
+            return;
+          }
           if (followActive) {
             if (qfieldSettings.enableMapRotation) {
               if (!followOrientationActive) {
@@ -2607,15 +2763,10 @@ ApplicationWindow {
               }
             }
           } else {
-            if (!positionSource.active) {
-              positionSource.jumpToPosition = true;
-              positioningSettings.positioningActivated = true;
+            if (positionSource.projectedPosition.x) {
+              jumpToLocation();
             } else {
-              if (positionSource.projectedPosition.x) {
-                jumpToLocation();
-              } else {
-                displayToast(qsTr("Waiting for location"));
-              }
+              displayToast(qsTr("Waiting for location"));
             }
           }
         }
@@ -2627,8 +2778,16 @@ ApplicationWindow {
         property bool jumpedOnce: false
 
         function jumpToLocation() {
+          const is3D = stateMachine.state === '3d';
+          if (is3D) {
+            const pos3d = mapCanvas3DLoader.item.geoTo3D(positionSource.projectedPosition.x, positionSource.projectedPosition.y);
+            if (pos3d === null) {
+              return;
+            }
+          }
+
           let targetScale = -1;
-          if (!jumpedOnce) {
+          if (!jumpedOnce && !is3D) {
             // The scale range and speed range aims at providing an adequate default
             // value for a range of scenarios from people walking to people being driven
             // in trains
@@ -2653,12 +2812,21 @@ ApplicationWindow {
           }
           mapCanvasMap.jumpToPosition(positionSource, targetScale, -1, true, () => {
             gnssButton.followLocation(true);
+            // Apply orientation immediately when follow mode includes orientation
+            if (gnssButton.followOrientationActive) {
+              gnssButton.followOrientation();
+            }
           });
           if (!gnssButton.followActive) {
             mapCanvasMap.freeze('follow');
             gnssButton.followActive = true;
-            //displayToast(qsTr("Map canvas follows location"));
-            displayToast(qsTr("지도 화면이 현재 위치를 따라갑니다"));
+            if (positioningSettings.positionFollowMode === PositioningSettings.FollowMode.PositionAndCompass) {
+              displayToast(qsTr("지도 화면이 현재 위치와 나침반 방향을 따라갑니다"));
+            } else if (positioningSettings.positionFollowMode === PositioningSettings.FollowMode.PositionAndDirection) {
+              displayToast(qsTr("지도 화면이 현재 위치와 이동 방향을 따라갑니다"));
+            } else {
+              displayToast(qsTr("지도 화면이 현재 위치를 따라갑니다"));
+            }
           }
         }
 
@@ -2713,11 +2881,28 @@ ApplicationWindow {
         }
 
         function followOrientation() {
-          if (!isNaN(positionSource.orientation) && Math.abs(-positionSource.orientation - mapCanvas.mapSettings.rotation) >= 2) {
-            if (gnssButton.followOrientationActive) {
-              mapCanvas.mapSettings.rotation = -positionSource.orientation;
-              gnssButton.followActiveSkipRotationChanged = true;
+          if (!gnssButton.followOrientationActive) {
+            return;
+          }
+          let targetRotation;
+          if (positioningSettings.positionFollowMode === PositioningSettings.FollowMode.PositionAndCompass) {
+            // Follow compass orientation
+            if (isNaN(positionSource.orientation)) {
+              return;
             }
+            targetRotation = -positionSource.orientation;
+          } else if (positioningSettings.positionFollowMode === PositioningSettings.FollowMode.PositionAndDirection) {
+            // Follow movement direction
+            if (!positionSource.positionInformation || !positionSource.positionInformation.directionValid) {
+              return;
+            }
+            targetRotation = -positionSource.positionInformation.direction;
+          } else {
+            return;
+          }
+          if (Math.abs(targetRotation - mapCanvas.mapSettings.rotation) >= 2) {
+            mapCanvas.mapSettings.rotation = targetRotation;
+            gnssButton.followActiveSkipRotationChanged = true;
             const triggerRefresh = Math.abs(mapCanvasMap.mapCanvasWrapper.rotation) > 60;
             if (triggerRefresh) {
               mapCanvasMap.refresh(true);
@@ -2758,7 +2943,6 @@ ApplicationWindow {
             } else {
               mapCanvasMap.unfreeze('follow');
               gnssButton.followActive = false;
-              gnssButton.followOrientationActive = false;
               if (gnssButton.autoRefollow) {
                 showAutoLockToast();
               }
@@ -2781,7 +2965,6 @@ ApplicationWindow {
           if (gnssButton.followActive && gnssButton.autoRefollow) {
             mapCanvasMap.unfreeze('follow');
             gnssButton.followActive = false;
-            gnssButton.followOrientationActive = false;
             showAutoLockToast();
           } else if (gnssButton.autoRefollow) {
             showAutoLockToast();
@@ -3089,6 +3272,9 @@ ApplicationWindow {
         shouldReturnHome = true;
       } else if (!shouldReturnHome) {
         openWelcomeScreen();
+        if (stateMachine.state === '3d') {
+          mainWindow.close3DView();
+        }
       }
     }
 
@@ -3107,6 +3293,10 @@ ApplicationWindow {
       } else {
         activateMeasurementMode();
       }
+    }
+
+    onToggle3DView: {
+      activate3DMode();
     }
 
     onShowPrintLayouts: p => {
@@ -3176,6 +3366,14 @@ ApplicationWindow {
     mainMenu.close();
     dashBoard.close();
     changeMode('measure');
+  }
+
+  function activate3DMode() {
+    mainMenu.close();
+    dashBoard.close();
+    if (stateMachine.state !== '3d') {
+      changeMode('3d');
+    }
   }
 
   QfMenu {
@@ -5039,6 +5237,7 @@ ApplicationWindow {
 
   BusyOverlay {
     id: busyOverlay
+    objectName: 'busyOverlay'
     state: iface.hasProjectOnLaunch() ? "visible" : "hidden"
   }
 

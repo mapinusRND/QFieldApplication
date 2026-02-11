@@ -294,15 +294,15 @@ Cancel to make a minimal device scan instead.</source>
     </message>
     <message>
         <source>Bluetooth permission is required to scan for bluetooth devices</source>
-        <translation type="unfinished"/>
+        <translation>ກະລຸນາອະນຸຍາດໃຫ້ເຂົ້າເຖິງ Bluetooth ເພື່ອສະແກນຫາອຸປະກອນ Bluetooth</translation>
     </message>
     <message>
         <source>Location permission denied</source>
-        <translation type="unfinished"/>
+        <translation>ການອະນຸຍາດໃຊ້ຕຳແໜ່ງຖືກປະຕິເສດ</translation>
     </message>
     <message>
         <source>Location permission is required to scan for bluetooth devices</source>
-        <translation type="unfinished"/>
+        <translation>ກະລຸນາເປີດສິດອະນຸຍາດເຂົ້າເຖິງຕຳແໜ່ງ ເພື່ອສະແກນຫາອຸປະກອນ Bluetooth</translation>
     </message>
 </context>
 <context>
@@ -411,11 +411,11 @@ Cancel to make a minimal device scan instead.</source>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished"/>
+        <translation>ຄຳອະທິບາຍ</translation>
     </message>
     <message>
         <source>Change color</source>
-        <translation type="unfinished"/>
+        <translation>ປ່ຽນສີ</translation>
     </message>
 </context>
 <context>
@@ -501,7 +501,7 @@ Cancel to make a minimal device scan instead.</source>
     </message>
     <message>
         <source>Empty</source>
-        <translation type="unfinished"/>
+        <translation>ຫວ່າງເປົ່າ</translation>
     </message>
 </context>
 <context>
@@ -597,7 +597,15 @@ Cancel to make a minimal device scan instead.</source>
     </message>
     <message>
         <source>Return home</source>
-        <translation type="unfinished"/>
+        <translation>ກັບໄປໜ້າຫຼັກ</translation>
+    </message>
+    <message>
+        <source>Expand All</source>
+        <translation>ຂະຫຍາຍທັງໝົດ</translation>
+    </message>
+    <message>
+        <source>Collapse All</source>
+        <translation>ຫຍໍ້ທັງໝົດ</translation>
     </message>
 </context>
 <context>
@@ -845,7 +853,7 @@ Cancel to make a minimal device scan instead.</source>
     </message>
     <message>
         <source>Empty</source>
-        <translation type="unfinished"/>
+        <translation>ຫວ່າງເປົ່າ</translation>
     </message>
     <message>
         <source>NULL</source>
@@ -916,23 +924,23 @@ Cancel to make a minimal device scan instead.</source>
     </message>
     <message>
         <source>Feature Form Menu</source>
-        <translation type="unfinished"/>
+        <translation>ເມນູແບບຟອມຄຸນສົມບັດ</translation>
     </message>
     <message>
         <source>Remember All Reusable Values</source>
-        <translation type="unfinished"/>
+        <translation>ບັນທຶກຄ່າເຫຼົ່ານີ້ໄວ້ໃຊ້ຄືນໃໝ່</translation>
     </message>
     <message>
         <source>Forget All Reusable Values</source>
-        <translation type="unfinished"/>
+        <translation>ລຶບຄ່າທີ່ໃຊ້ຄືນ</translation>
     </message>
     <message>
         <source>Soft constraints were not satisified</source>
-        <translation type="unfinished"/>
+        <translation>ເງື່ອນໄຂແບບຢືດຢຸ່ນບໍ່ໄດ້ຮັບການຕອບສະໜອງ</translation>
     </message>
     <message>
         <source>Hard constraints not satisfied</source>
-        <translation type="unfinished"/>
+        <translation>ເງື່ອນໄຂທີ່ຈຳເປັນບໍ່ໄດ້ຮັບການຕອບສະໜອງ</translation>
     </message>
 </context>
 <context>
@@ -1372,7 +1380,7 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Submit</source>
-        <translation type="unfinished"/>
+        <translation>ສົ່ງ</translation>
     </message>
 </context>
 <context>
@@ -1502,7 +1510,7 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Tracking on layer %1 stopped</source>
-        <translation type="unfinished"/>
+        <translation>ຢຸດການຕິດຕາມໃນເລເຢີ້ %1</translation>
     </message>
 </context>
 <context>
@@ -1575,11 +1583,11 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Tracking active on this layer.</source>
-        <translation type="unfinished"/>
+        <translation>ກຳລັງຕິດຕາມໃນເລເຢີ້ນີ້</translation>
     </message>
     <message>
         <source>Tracking on layer %1 stopped</source>
-        <translation type="unfinished"/>
+        <translation>ຢຸດການຕິດຕາມໃນເລເຢີ້ %1</translation>
     </message>
 </context>
 <context>
@@ -1610,7 +1618,7 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Home</source>
-        <translation type="unfinished"/>
+        <translation>ໜ້າຫຼັກ</translation>
     </message>
 </context>
 <context>
@@ -1953,7 +1961,7 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Hard constraints not satisfied</source>
-        <translation type="unfinished"/>
+        <translation>ເງື່ອນໄຂທີ່ຈຳເປັນບໍ່ໄດ້ຮັບການຕອບສະໜອງ</translation>
     </message>
 </context>
 <context>
@@ -2570,11 +2578,11 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Media</source>
-        <translation type="unfinished"/>
+        <translation>ສື່</translation>
     </message>
     <message>
         <source>Track color</source>
-        <translation type="unfinished"/>
+        <translation>ສີເສັ້ນທາງ</translation>
     </message>
 </context>
 <context>
@@ -3058,11 +3066,11 @@ While you can still view and use the project, it is strongly recommended to rese
     </message>
     <message>
         <source>Uploading %1</source>
-        <translation type="unfinished"/>
+        <translation>ກຳລັງອັບໂຫຼດ %1</translation>
     </message>
     <message numerus="yes">
         <source>%n file(s) remaining</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <translation><numerusform>ຍັງເຫຼືອອີກ %n ໄຟລ໌</numerusform></translation>
     </message>
 </context>
 <context>
@@ -3237,7 +3245,7 @@ While you can still view and use the project, it is strongly recommended to rese
     </message>
     <message>
         <source>Synchronizing</source>
-        <translation type="unfinished"/>
+        <translation>ກຳລັງຊິງໂຄໄນ</translation>
     </message>
 </context>
 <context>
@@ -3376,7 +3384,7 @@ While you can still view and use the project, it is strongly recommended to rese
     </message>
     <message>
         <source>Network is not currently active. We will push the changes automatically once you are back online.</source>
-        <translation type="unfinished"/>
+        <translation>ເຄືອຂ່າຍບໍ່ໄດ້ເປີດໃຊ້ງານໃນເວລານີ້. ລະບົບຈະອັບເດດຂໍ້ມູນໃຫ້ອັດຕະໂນມັດ ເມື່ອເຊື່ອມຕໍ່ເນັດໄດ້ຄືນ</translation>
     </message>
 </context>
 <context>
@@ -3562,11 +3570,11 @@ While you can still view and use the project, it is strongly recommended to rese
     <name>QFieldCloudService</name>
     <message>
         <source>Uploading %1</source>
-        <translation type="unfinished"/>
+        <translation>ກຳລັງອັບໂຫຼດ %1</translation>
     </message>
     <message numerus="yes">
         <source>%n file(s) remaining</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <translation><numerusform>ຍັງເຫຼືອອີກ %n ໄຟລ໌</numerusform></translation>
     </message>
 </context>
 <context>
@@ -3683,7 +3691,7 @@ While you can still view and use the project, it is strongly recommended to rese
     </message>
     <message>
         <source>Home</source>
-        <translation type="unfinished"/>
+        <translation>ໜ້າຫຼັກ</translation>
     </message>
     <message>
         <source>Item Actions</source>
@@ -3715,7 +3723,7 @@ While you can still view and use the project, it is strongly recommended to rese
     </message>
     <message>
         <source>Delete file</source>
-        <translation type="unfinished"/>
+        <translation>ລົບໄຟລ໌</translation>
     </message>
     <message>
         <source>Remove folder</source>
@@ -3763,7 +3771,7 @@ While you can still view and use the project, it is strongly recommended to rese
     </message>
     <message>
         <source>Delete file(s)</source>
-        <translation type="unfinished"/>
+        <translation>ລົບໄຟລ໌</translation>
     </message>
     <message>
         <source>‘%1’ is being uploaded to QFieldCloud</source>
@@ -3775,19 +3783,19 @@ While you can still view and use the project, it is strongly recommended to rese
     </message>
     <message>
         <source>Remove File(s)</source>
-        <translation type="unfinished"/>
+        <translation>ເອົາໄຟລ໌ອອກ</translation>
     </message>
     <message numerus="yes">
         <source>Are you sure you want to remove %n files?</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <translation><numerusform>ຢືນຢັນການເອົາ %n ໄຟລ໌ອອກ?</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n file(s) deleted successfully</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <translation><numerusform>ລົບ %n ໄຟລ໌ສຳເລັດແລ້ວ</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>Failed to delete %n file(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <translation><numerusform>ບໍ່ສາມາດລົບ %n ໄຟລ໌ໄດ້</numerusform></translation>
     </message>
     <message>
         <source>Type a URL below to download and import the project or dataset:</source>
@@ -4339,34 +4347,54 @@ Cancel to make a minimal device scan instead.</source>
     </message>
     <message>
         <source>Show zoom controls</source>
-        <translation type="unfinished"/>
+        <translation>ສະແດງເຄື່ອງມືຄວບຄຸມການຊູມ</translation>
     </message>
     <message>
         <source>Maximize feature form</source>
-        <translation type="unfinished"/>
+        <translation>ຂະຫຍາຍແບບຟອມໃຫ້ໃຫຍ່ສຸດ</translation>
     </message>
     <message>
         <source>Open feature form for single feature identification</source>
-        <translation type="unfinished"/>
+        <translation>ເປີດແບບຟອມຂໍ້ມູນ ເພື່ອເບິ່ງລາຍລະອຽດວັດຖຸດ່ຽວ</translation>
     </message>
     <message>
         <source>If enabled, areas just outside of the visible map canvas extent will be partially rendered to allow preview when zooming and panning.</source>
-        <translation type="unfinished"/>
+        <translation>ຫາກເປີດໃຊ້ງານ, ເນື້ອທີ່ບໍລິເວນຂອບນອກຂອງຂອບເຂດແຜນທີ່ທີ່ກຳລັງສະແດງຢູ່ນັ້ນ ຈະຖືກປະມວນຜົນໄວ້ບາງສ່ວນ ເພື່ອໃຫ້ສາມາດເຫັນຕົວຢ່າງໃນຂະນະທີ່ຊູມ ແລະ ເລື່ອນແຜນທີ່.</translation>
     </message>
     <message>
         <source>Enable auto-save mode</source>
-        <translation type="unfinished"/>
+        <translation>ເປີດບັນທຶກອັດຕະໂນມັດ</translation>
     </message>
     <message>
         <source>If enabled, newly-added features are stored as soon as it has having a valid geometry and the constraints are fulfilled and edited atributes are commited immediately.</source>
-        <translation type="unfinished"/>
+        <translation>ຫາກເປີດໃຊ້ງານ, ຂໍ້ມູນທີ່ເພີ່ມເຂົ້າໃໝ່ຈະຖືກບັນທຶກທັນທີ ເມື່ອຮູບຊົງເລຂາຄະນິດຖືກຕ້ອງ ແລະ ຄົບຖ້ວນຕາມເງື່ອນໄຂທີ່ກຳນົດ, ລວມທັງຄຸນລັກສະນະທີ່ຖືກແກ້ໄຂຈະຖືກຢືນຢັນການປ່ຽນແປງໃນທັນທີ.</translation>
     </message>
     <message>
         <source>Auto-zoom to identified feature(s)</source>
-        <translation type="unfinished"/>
+        <translation>ຊູມອັດຕະໂນມັດໄປຫາວັດຖຸທີ່ລະບຸ</translation>
     </message>
     <message>
         <source>When enabled, the map will automatically zoom to show all identified features, as well as the individual selected feature when the feature form is opened.</source>
+        <translation>ເມື່ອເປີດໃຊ້ງານ, ແຜນທີ່ຈະຊູມໂດຍອັດຕະໂນມັດເພື່ອສະແດງວັດຖຸທັງໝົດທີ່ຖືກລະບຸ, ລວມທັງຊູມໄປຫາວັດຖຸທີ່ເລືອກໃນຂະນະທີ່ເປີດແບບຟອມຂໍ້ມູນ</translation>
+    </message>
+    <message>
+        <source>Behavior when locked to position:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Follow position only</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Follow position and compass orientation</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Follow position and movement direction</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>When the map canvas is following or locked to position, it can also rotate to match compass orientation or movement direction.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -4513,51 +4541,51 @@ Cancel to make a minimal device scan instead.</source>
     </message>
     <message>
         <source>Circle #1: radius</source>
-        <translation type="unfinished"/>
+        <translation>ວົງມົນທີ 1: ລັດສະໝີ</translation>
     </message>
     <message>
         <source>Circle #2: radius</source>
-        <translation type="unfinished"/>
+        <translation>ວົງມົນທີ 2: ລັດສະໝີ</translation>
     </message>
     <message>
         <source>Candidate</source>
-        <translation type="unfinished"/>
+        <translation>ຕົວເລືອກ</translation>
     </message>
     <message>
         <source>XYZ Parameters</source>
-        <translation type="unfinished"/>
+        <translation>ພາຣາມິເຕີ XYZ</translation>
     </message>
     <message>
         <source>Distance/Angle from Point</source>
-        <translation type="unfinished"/>
+        <translation>ໄລຍະຫ່າງ/ມຸມ ຈາກຈຸດ</translation>
     </message>
     <message>
         <source>Circles Intersection</source>
-        <translation type="unfinished"/>
+        <translation>ວົງມົນຕັດກັນ</translation>
     </message>
     <message>
         <source>Point</source>
-        <translation type="unfinished"/>
+        <translation>ຈຸດ</translation>
     </message>
     <message>
         <source>Distance</source>
-        <translation type="unfinished"/>
+        <translation>ໄລຍະຫ່າງ</translation>
     </message>
     <message>
         <source>Angle</source>
-        <translation type="unfinished"/>
+        <translation>ມຸມ</translation>
     </message>
     <message>
         <source>Elevation</source>
-        <translation type="unfinished"/>
+        <translation>ລະດັບຄວາມສູງ</translation>
     </message>
     <message>
         <source>Circle #1: point</source>
-        <translation type="unfinished"/>
+        <translation>ວົງມົນທີ 1: ຈຸດ</translation>
     </message>
     <message>
         <source>Circle #2: point</source>
-        <translation type="unfinished"/>
+        <translation>ວົງມົນທີ 2: ຈຸດ</translation>
     </message>
 </context>
 <context>
@@ -4767,7 +4795,7 @@ Cancel to make a minimal device scan instead.</source>
     <name>Range</name>
     <message>
         <source>Empty</source>
-        <translation type="unfinished"/>
+        <translation>ຫວ່າງເປົ່າ</translation>
     </message>
     <message>
         <source>NULL</source>
@@ -4832,7 +4860,7 @@ Cancel to make a minimal device scan instead.</source>
     </message>
     <message>
         <source>Empty</source>
-        <translation type="unfinished"/>
+        <translation>ຫວ່າງເປົ່າ</translation>
     </message>
     <message>
         <source>NULL</source>
@@ -5087,7 +5115,7 @@ Cancel to make a minimal device scan instead.</source>
     </message>
     <message>
         <source>Empty</source>
-        <translation type="unfinished"/>
+        <translation>ຫວ່າງເປົ່າ</translation>
     </message>
     <message>
         <source>NULL</source>
@@ -5225,11 +5253,11 @@ Cancel to make a minimal device scan instead.</source>
     </message>
     <message>
         <source>Layer</source>
-        <translation type="unfinished"/>
+        <translation>ຊັ້ນຂໍ້ມູນ</translation>
     </message>
     <message>
         <source>Track on layer %1 resumed</source>
-        <translation type="unfinished"/>
+        <translation>ເລີ່ມການຕິດຕາມໃນຊັ້ນ %1 ຄືນໃໝ່</translation>
     </message>
 </context>
 <context>
@@ -5511,6 +5539,62 @@ Cancel to make a minimal device scan instead.</source>
         <source>Failed to upload file %1 due to network error (%2)</source>
         <translation>ອັບໂຫຼດໄຟລ໌ %1 ບໍ່ສຳເລັດເນື່ອງຈາກເຄືອຂ່າຍຜິດພາດ (%2)</translation>
     </message>
+    <message>
+        <source>Upload finished.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>No local paths provided.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>WebDAV is busy.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Not a WebDAV imported project.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>WebDAV config is missing required fields.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>No stored password available.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Selected items belong to different WebDAV projects.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Nothing to upload.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>No local changes detected.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Upload cancelled.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Upload skipped.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Upload is locked by another process.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Failed to read WebDAV config file.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Invalid WebDAV config JSON.</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>WelcomeScreen</name>
@@ -5646,7 +5730,7 @@ project</source>
     <name>angle</name>
     <message>
         <source>deg</source>
-        <translation type="unfinished"/>
+        <translation>ອົງສາ</translation>
     </message>
 </context>
 <context>
@@ -5801,31 +5885,31 @@ project</source>
     <name>point</name>
     <message>
         <source>latitude</source>
-        <translation type="unfinished"/>
+        <translation>ເສັ້ນຂະໜານ</translation>
     </message>
     <message>
         <source>longitude</source>
-        <translation type="unfinished"/>
+        <translation>ເສັ້ນແວງ</translation>
     </message>
     <message>
         <source>elevation</source>
-        <translation type="unfinished"/>
+        <translation>ລະດັບຄວາມສູງ</translation>
     </message>
     <message>
         <source>easting [X]</source>
-        <translation type="unfinished"/>
+        <translation>ຄ່າພິກັດຕາເວັນອອກ</translation>
     </message>
     <message>
         <source>northing [Y]</source>
-        <translation type="unfinished"/>
+        <translation>ຄ່າພິກັດເໜືອ</translation>
     </message>
     <message>
         <source>elevation [Z]</source>
-        <translation type="unfinished"/>
+        <translation>ລະດັບຄວາມສູງ [Z]</translation>
     </message>
     <message>
         <source>Point Feature Picker</source>
-        <translation type="unfinished"/>
+        <translation>ເລືອກວັດຖຸຈຸດ</translation>
     </message>
 </context>
 <context>
@@ -6532,44 +6616,44 @@ project</source>
     </message>
     <message>
         <source>Coordinate cursor locked to location</source>
-        <translation type="unfinished"/>
+        <translation>ລັອກພິກັດໄວ້ກັບຕຳແໜ່ງແລ້ວ</translation>
     </message>
     <message>
         <source>Map canvas unlocked</source>
-        <translation type="unfinished"/>
+        <translation>ປົດລັອກແຜນທີ່ແລ້ວ</translation>
     </message>
     <message>
         <source>Map canvas locked to location</source>
-        <translation type="unfinished"/>
+        <translation>ລັອກແຜນທີ່ຕາມຕຳແໜ່ງ</translation>
     </message>
     <message>
         <source>Map canvas locked to location and compass orientation</source>
-        <translation type="unfinished"/>
+        <translation>ລັອກແຜນທີ່ຕາມຕຳແໜ່ງ ແລະ ທິດເຂັມທິດ</translation>
     </message>
     <message>
         <source>Map canvas follows location and compass orientation</source>
-        <translation type="unfinished"/>
+        <translation>ແຜນທີ່ເຄື່ອນຕາມຕຳແໜ່ງ ແລະ ທິດເຂັມທິດ</translation>
     </message>
     <message>
         <source>Map canvas follows location</source>
-        <translation type="unfinished"/>
+        <translation>ແຜນທີ່ເຄື່ອນຕາມຕຳແໜ່ງ</translation>
     </message>
     <message>
         <source>Lock Coordinate Cursor to Location</source>
-        <translation type="unfinished"/>
+        <translation>ລັອກພິກັດໄວ້ກັບຕຳແໜ່ງ</translation>
     </message>
     <message>
         <source>Lock Map Canvas to Location</source>
-        <translation type="unfinished"/>
+        <translation>ລັອກແຜນທີ່ໄວ້ກັບຕຳແໜ່ງ</translation>
     </message>
     <message>
         <source>Map canvas lock paused</source>
-        <translation type="unfinished"/>
+        <translation>ຢຸດການລັອກແຜນທີ່ຊົ່ວຄາວ</translation>
     </message>
     <message>
         <source>Tap on your location marker
 to show actions</source>
-        <translation type="unfinished"/>
+        <translation>ແຕະໃສ່ຈຸດຕຳແໜ່ງຂອງທ່ານ ເພື່ອເບິ່ງເມນູຄຳສັ່ງ</translation>
     </message>
     <message>
         <source>This button toggles the positioning system. When enabled, a position marker will appear top of the map. Long-pressing the button will open the positioning menu where additional functionalities can be explored.</source>
@@ -6577,34 +6661,54 @@ to show actions</source>
     </message>
     <message numerus="yes">
         <source>Tracking active on %n layer(s)</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <translation><numerusform>ເປີດການຕິດຕາມໃນ %n ຊັ້ນຂໍ້ມູນ</numerusform></translation>
     </message>
     <message>
         <source>Stop all</source>
-        <translation type="unfinished"/>
+        <translation>ຢຸດທັງໝົດ</translation>
     </message>
     <message numerus="yes">
         <source>Tracking on %n layer(s) stopped</source>
-        <translation type="unfinished"><numerusform></numerusform></translation>
+        <translation><numerusform>ຢຸດການຕິດຕາມໃນ %n ຊັ້ນຂໍ້ມູນແລ້ວ</numerusform></translation>
     </message>
     <message>
         <source>No compatible layers available to launch tracking</source>
-        <translation type="unfinished"/>
+        <translation>ບໍ່ມີຊັ້ນຂໍ້ມູນທີ່ຮອງຮັບການຕິດຕາມ</translation>
     </message>
     <message>
         <source>COGO digitizing turned on</source>
-        <translation type="unfinished"/>
+        <translation>ເປີດລະບົບການສ້າງຂໍ້ມູນດ້ວຍການປ້ອນຄ່າວັດແທກ (COGO) ແລ້ວ</translation>
     </message>
     <message>
         <source>COGO digitizing turned off</source>
-        <translation type="unfinished"/>
+        <translation>ປິດລະບົບການສ້າງຂໍ້ມູນດ້ວຍການປ້ອນຄ່າວັດແທກ (COGO) ແລ້ວ</translation>
     </message>
     <message>
         <source>Enable positioning service to get points at your location</source>
-        <translation type="unfinished"/>
+        <translation>ເປີດບໍລິການລະບຸຕຳແໜ່ງ ເພື່ອບັນທຶກຈຸດຕາມພິກັດຂອງທ່ານ</translation>
     </message>
     <message>
         <source>Positioning service has not yet received a valid location</source>
+        <translation>ຍັງບໍ່ທັນໄດ້ຮັບຂໍ້ມູນຕຳແໜ່ງທີ່ຊັດເຈນ</translation>
+    </message>
+    <message>
+        <source>Map canvas locked to location and movement direction</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Map canvas follows location and movement direction</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Failed to load 3D view</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Loading terrain...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Close 3D view</source>
         <translation type="unfinished"/>
     </message>
 </context>

@@ -805,7 +805,7 @@ Page {
                 property variant languageCodes: undefined
                 property string currentLanguageCode: undefined
 
-                onCurrentIndexChanged: {
+                onActivated: {
                   if (currentLanguageCode != undefined) {
                     var newLanguageCode = languageCodes[currentIndex];
                     if (newLanguageCode !== currentLanguageCode) {
@@ -1006,14 +1006,19 @@ Page {
                     }
                   }
 
+                  property bool loaded: false
+
                   onCurrentIndexChanged: {
-                    var modelIndex = positioningDeviceModel.index(currentIndex, 0);
-                    positioningSettings.positioningDevice = positioningDeviceModel.data(modelIndex, PositioningDeviceModel.DeviceId);
-                    positioningSettings.positioningDeviceName = positioningDeviceModel.data(modelIndex, PositioningDeviceModel.DeviceName);
+                    if (loaded && currentIndex !== -1) {
+                      const modelIndex = positioningDeviceModel.index(currentIndex, 0);
+                      positioningSettings.positioningDevice = positioningDeviceModel.data(modelIndex, PositioningDeviceModel.DeviceId);
+                      positioningSettings.positioningDeviceName = positioningDeviceModel.data(modelIndex, PositioningDeviceModel.DeviceName);
+                    }
                   }
 
                   Component.onCompleted: {
-                    currentIndex = positioningDeviceModel.findIndexFromDeviceId(settings.value('positioningDevice', ''));
+                    currentIndex = positioningDeviceModel.findIndexFromDeviceId(positioningSettings.positioningDevice);
+                    loaded = true;
                   }
                 }
               }
@@ -1128,6 +1133,53 @@ Page {
                 onCheckedChanged: {
                   positioningSettings.showPositionInformation = checked;
                 }
+              }
+
+              Label {
+                id: positionFollowModeLabel
+                Layout.fillWidth: true
+                Layout.columnSpan: 2
+                text: qsTr("Behavior when locked to position:")
+                font: Theme.defaultFont
+                color: Theme.mainTextColor
+
+                wrapMode: Text.WordWrap
+              }
+
+              QfComboBox {
+                id: positionFollowModeComboBox
+                Layout.fillWidth: true
+                Layout.columnSpan: 2
+                Layout.alignment: Qt.AlignVCenter
+                font: Theme.defaultFont
+                model: [qsTr("Follow position only"), qsTr("Follow position and compass orientation"), qsTr("Follow position and movement direction")]
+
+                popup.font: Theme.defaultFont
+                popup.topMargin: mainWindow.sceneTopMargin
+                popup.bottomMargin: mainWindow.sceneTopMargin
+
+                property bool loaded: false
+
+                Component.onCompleted: {
+                  positionFollowModeComboBox.currentIndex = positioningSettings.positionFollowMode;
+                  loaded = true;
+                }
+
+                onCurrentIndexChanged: {
+                  if (loaded) {
+                    positioningSettings.positionFollowMode = currentIndex;
+                  }
+                }
+              }
+
+              Label {
+                id: positionFollowModeTipLabel
+                Layout.fillWidth: true
+                text: qsTr("When the map canvas is following or locked to position, it can also rotate to match compass orientation or movement direction.")
+                font: Theme.tipFont
+                color: Theme.secondaryTextColor
+
+                wrapMode: Text.WordWrap
               }
 
               Label {
@@ -1724,7 +1776,6 @@ Page {
       }
       var index = positioningDeviceModel.addDevice(type, name, settings);
       positioningDeviceComboBox.currentIndex = index;
-      positioningDeviceComboBox.onCurrentIndexChanged();
     }
   }
 

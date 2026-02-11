@@ -108,7 +108,8 @@ jobs:
                 -D CMAKE_OSX_DEPLOYMENT_TARGET=${{ matrix.deployment-target }} \
                 -D CMAKE_OSX_ARCHITECTURES=${{ matrix.target-arch }} \
                 -D VCPKG_TARGET_TRIPLET=${{ matrix.triplet }} \
-                -D WITH_CCACHE=ON
+                -D WITH_CCACHE=ON \
+                -D VCPKG_INSTALL_OPTIONS="--x-abi-tools-use-exact-versions"
 
       - name: 🌋 Build
         run: |
@@ -138,7 +139,7 @@ jobs:
       - name: 📦 Upload package
         uses: actions/upload-artifact@v6
         with:
-          name: "qfield-app-${{ matrix.triplet }}"
+          name: qfield-app-${{ matrix.triplet }}
           path: qfield-app-${{ matrix.triplet }}.tar.gz
 
       - name: 📊 Upload test report
@@ -216,11 +217,13 @@ jobs:
           export DMG_PATH=qfield.dmg
           ./platform/macos/create_dmg.sh
 
+          echo "ARTIFACT_PACKAGE_NAME=qfield-dmg" >> $GITHUB_ENV
+
       - name: 📤 Upload app
         uses: actions/upload-artifact@v6
         id: artifact-macos
         with:
-          name: qfield-dmg
+          name: ${{ env.ARTIFACT_PACKAGE_NAME }}
           path: |
             *.dmg
 
@@ -231,7 +234,7 @@ jobs:
           marker: macos
           body: |
             ### 🍎 MacOS DMG universal builds
-            Download a [MacOS DMG universal build of this PR for testing](${{ steps.artifact-macos.outputs.artifact-url }}).
+            Download a [MacOS DMG universal build of this PR for testing](https://nightly.link/opengisch/QField/actions/runs/${{ github.run_id }}/${{ env.ARTIFACT_PACKAGE_NAME }}.zip).
             *(Built from commit ${{ github.event.pull_request.head.sha }})*
           pr: ${{ github.event.number }}
 

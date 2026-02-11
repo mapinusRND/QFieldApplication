@@ -600,6 +600,14 @@ Anuluj, aby wykonać zamiast tego minimalne skanowanie urządzeń.</translation>
         <source>Return home</source>
         <translation>Wróć do strony głównej</translation>
     </message>
+    <message>
+        <source>Expand All</source>
+        <translation>Rozwiń wszystko</translation>
+    </message>
+    <message>
+        <source>Collapse All</source>
+        <translation>Zwiń wszystko</translation>
+    </message>
 </context>
 <context>
     <name>DateTime</name>
@@ -929,11 +937,11 @@ Anuluj, aby wykonać zamiast tego minimalne skanowanie urządzeń.</translation>
     </message>
     <message>
         <source>Soft constraints were not satisified</source>
-        <translation type="unfinished"/>
+        <translation>Miękkie ograniczenia nie zostały spełnione</translation>
     </message>
     <message>
         <source>Hard constraints not satisfied</source>
-        <translation type="unfinished"/>
+        <translation>Twarde ograniczenia nie zostały spełnione</translation>
     </message>
 </context>
 <context>
@@ -1966,7 +1974,7 @@ Geometrie elementów zostaną połączone w element &quot;%1&quot;, który zacho
     </message>
     <message>
         <source>Hard constraints not satisfied</source>
-        <translation type="unfinished"/>
+        <translation>Twarde ograniczenia nie zostały spełnione</translation>
     </message>
 </context>
 <context>
@@ -4391,6 +4399,26 @@ Anuluj, aby wykonać zamiast tego minimalne skanowanie urządzeń.</translation>
         <source>When enabled, the map will automatically zoom to show all identified features, as well as the individual selected feature when the feature form is opened.</source>
         <translation>Po włączeniu tej opcji mapa będzie automatycznie powiększana w celu wyświetlenia wszystkich zidentyfikowanych obiektów, a także pojedynczego wybranego obiektu po otwarciu formularza obiektu.</translation>
     </message>
+    <message>
+        <source>Behavior when locked to position:</source>
+        <translation>Zachowanie po zablokowaniu w pozycji:</translation>
+    </message>
+    <message>
+        <source>Follow position only</source>
+        <translation>Podążaj tylko za pozycją</translation>
+    </message>
+    <message>
+        <source>Follow position and compass orientation</source>
+        <translation>Podążaj za pozycją i orientacją kompasu</translation>
+    </message>
+    <message>
+        <source>Follow position and movement direction</source>
+        <translation>Podążaj za pozycją i kierunkiem ruchu</translation>
+    </message>
+    <message>
+        <source>When the map canvas is following or locked to position, it can also rotate to match compass orientation or movement direction.</source>
+        <translation>Gdy kanwa mapy podąża za pozycją lub jest zablokowana, może również obracać się, aby dopasować się do orientacji kompasu lub kierunku ruchu.</translation>
+    </message>
 </context>
 <context>
     <name>QFieldSketcher</name>
@@ -5531,6 +5559,62 @@ Anuluj, aby wykonać zamiast tego minimalne skanowanie urządzeń.</translation>
         <source>Failed to upload file %1 due to network error (%2)</source>
         <translation>Nie udało się przesłać pliku %1 z powodu błędu sieci (%2)</translation>
     </message>
+    <message>
+        <source>Upload finished.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>No local paths provided.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>WebDAV is busy.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Not a WebDAV imported project.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>WebDAV config is missing required fields.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>No stored password available.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Selected items belong to different WebDAV projects.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Nothing to upload.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>No local changes detected.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Upload cancelled.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Upload skipped.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Upload is locked by another process.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Failed to read WebDAV config file.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Invalid WebDAV config JSON.</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>WelcomeScreen</name>
@@ -5848,7 +5932,7 @@ projekt</translation>
     </message>
     <message>
         <source>Point Feature Picker</source>
-        <translation type="unfinished"/>
+        <translation>Punktowy wybór elementu</translation>
     </message>
 </context>
 <context>
@@ -6630,6 +6714,26 @@ aby wyświetlić działania</translation>
     <message>
         <source>Positioning service has not yet received a valid location</source>
         <translation>Usługa pozycjonowania nie otrzymała jeszcze prawidłowej lokalizacji</translation>
+    </message>
+    <message>
+        <source>Map canvas locked to location and movement direction</source>
+        <translation>Kanwa mapy zablokowana do lokalizacji i kierunku ruchu</translation>
+    </message>
+    <message>
+        <source>Map canvas follows location and movement direction</source>
+        <translation>Kanwa mapy podąża za lokalizacją i kierunkiem ruchu</translation>
+    </message>
+    <message>
+        <source>Failed to load 3D view</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Loading terrain...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Close 3D view</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>

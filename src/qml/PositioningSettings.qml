@@ -5,6 +5,12 @@ import org.qfield
  * \ingroup qml
  */
 Settings {
+  enum FollowMode {
+    PositionOnly,
+    PositionAndCompass,
+    PositionAndDirection
+  }
+
   property bool positioningActivated: false
   property bool positioningCoordinateLock: false
 
@@ -50,4 +56,6 @@ Settings {
 
   property bool geofencingPreventDigitizingDuringAlert: false
   property bool egenioussEnabled: false
+
+  property int positionFollowMode: PositioningSettings.FollowMode.PositionOnly
 }

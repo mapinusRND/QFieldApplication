@@ -134,6 +134,7 @@
         <file>imports/Theme/QfCalendarItem.qml</file>
         <file>imports/Theme/QfBadge.qml</file>
         <file>imports/Theme/QfToolButtonPie.qml</file>
+        <file>imports/Theme/QfToggleButtonGroup.qml</file>
         <file>TrackerSettings.qml</file>
         <file>TrackerFeatureForm.qml</file>
         <file>TrackingSession.qml</file>
@@ -153,5 +154,8 @@
         <file>PluginItem.qml</file>
         <file>InformationDrawer.qml</file>
         <file>QFieldGuide.qml</file>
+        <file>3d/MapCanvas3D.qml</file>
+        <file>3d/TouchCameraController.qml</file>
+        <file>3d/TerrainMesh.qml</file>
     </qresource>
 </RCC>

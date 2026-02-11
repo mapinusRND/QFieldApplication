@@ -295,15 +295,16 @@ Cancele para fazer uma verificação mínima.</translation>
     </message>
     <message>
         <source>Bluetooth permission is required to scan for bluetooth devices</source>
-        <translation type="unfinished"/>
+        <translation>É necessária permissão Bluetooth para procurar dispositivos Bluetooth
+</translation>
     </message>
     <message>
         <source>Location permission denied</source>
-        <translation type="unfinished"/>
+        <translation>Permissão de localização negada</translation>
     </message>
     <message>
         <source>Location permission is required to scan for bluetooth devices</source>
-        <translation type="unfinished"/>
+        <translation>É necessária permissão de localização para procurar dispositivos Bluetooth</translation>
     </message>
 </context>
 <context>
@@ -416,7 +417,7 @@ Cancele para fazer uma verificação mínima.</translation>
     </message>
     <message>
         <source>Change color</source>
-        <translation type="unfinished"/>
+        <translation>Mudar cor</translation>
     </message>
 </context>
 <context>
@@ -502,7 +503,7 @@ Cancele para fazer uma verificação mínima.</translation>
     </message>
     <message>
         <source>Empty</source>
-        <translation type="unfinished"/>
+        <translation>Vazio</translation>
     </message>
 </context>
 <context>
@@ -594,11 +595,19 @@ Cancele para fazer uma verificação mínima.</translation>
     </message>
     <message>
         <source>Legend</source>
-        <translation type="unfinished"/>
+        <translation>Legenda</translation>
     </message>
     <message>
         <source>Return home</source>
-        <translation type="unfinished"/>
+        <translation>Voltar para a página inicial</translation>
+    </message>
+    <message>
+        <source>Expand All</source>
+        <translation>Expandir tudo</translation>
+    </message>
+    <message>
+        <source>Collapse All</source>
+        <translation>Recolher tudo</translation>
     </message>
 </context>
 <context>
@@ -747,11 +756,11 @@ Cancele para fazer uma verificação mínima.</translation>
     </message>
     <message>
         <source>Failed to start egeniouss server.</source>
-        <translation type="unfinished"/>
+        <translation>Falha ao iniciar o servidor egeniouss.</translation>
     </message>
     <message>
         <source>Failed to stop egeniouss server.</source>
-        <translation type="unfinished"/>
+        <translation>Falha ao parar o servidor egeniouss.</translation>
     </message>
 </context>
 <context>
@@ -842,11 +851,11 @@ Cancele para fazer uma verificação mínima.</translation>
     </message>
     <message>
         <source>QFieldCloud on-demand attachment error: </source>
-        <translation type="unfinished"/>
+        <translation>Erro de anexo sob demanda do QFieldCloud: </translation>
     </message>
     <message>
         <source>Empty</source>
-        <translation type="unfinished"/>
+        <translation>Vazio</translation>
     </message>
     <message>
         <source>NULL</source>
@@ -917,23 +926,23 @@ Cancele para fazer uma verificação mínima.</translation>
     </message>
     <message>
         <source>Feature Form Menu</source>
-        <translation type="unfinished"/>
+        <translation>Menu  do Formulário de Recursos</translation>
     </message>
     <message>
         <source>Remember All Reusable Values</source>
-        <translation type="unfinished"/>
+        <translation>Lembre-se de todos os valores reutilizáveis</translation>
     </message>
     <message>
         <source>Forget All Reusable Values</source>
-        <translation type="unfinished"/>
+        <translation>Esqueça todos os valores reutilizáveis</translation>
     </message>
     <message>
         <source>Soft constraints were not satisified</source>
-        <translation type="unfinished"/>
+        <translation>As restrições flexíveis não foram satisfeitas.</translation>
     </message>
     <message>
         <source>Hard constraints not satisfied</source>
-        <translation type="unfinished"/>
+        <translation>Restrições rígidas não satisfeitas</translation>
     </message>
 </context>
 <context>
@@ -1328,7 +1337,7 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Returns QField documentation pages matching terms.</source>
-        <translation type="unfinished"/>
+        <translation>Retorna páginas da documentação do QField que correspondem aos termos.</translation>
     </message>
 </context>
 <context>
@@ -1374,7 +1383,7 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Submit</source>
-        <translation type="unfinished"/>
+        <translation>Enviar</translation>
     </message>
 </context>
 <context>
@@ -1580,7 +1589,7 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Tracking active on this layer.</source>
-        <translation type="unfinished"/>
+        <translation>Rastreamento ativo nesta camada.</translation>
     </message>
     <message>
         <source>Tracking on layer %1 stopped</source>
@@ -1611,11 +1620,11 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Created projects</source>
-        <translation type="unfinished"/>
+        <translation>projetos criados</translation>
     </message>
     <message>
         <source>Home</source>
-        <translation type="unfinished"/>
+        <translation>Página inicial</translation>
     </message>
 </context>
 <context>
@@ -1707,23 +1716,23 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Log runtime profiler</source>
-        <translation type="unfinished"/>
+        <translation>Registro do profiler de tempo de execução</translation>
     </message>
     <message>
         <source>Type optional details</source>
-        <translation type="unfinished"/>
+        <translation>Insira detalhes adicionais.</translation>
     </message>
     <message>
         <source>Include cloud user details</source>
-        <translation type="unfinished"/>
+        <translation>Incluir detalhes do usuário da nuvem</translation>
     </message>
     <message>
         <source>This will send a log of your current session to the development team. You only need to do this when you are asked for it.</source>
-        <translation type="unfinished"/>
+        <translation>Isso enviará um registro da sua sessão atual para a equipe de desenvolvimento. Você só precisa fazer isso quando for solicitado.</translation>
     </message>
     <message>
         <source>Your application log is being sent…</source>
-        <translation type="unfinished"/>
+        <translation>Seu registro de aplicativos está sendo enviado...</translation>
     </message>
 </context>
 <context>
@@ -1821,11 +1830,11 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Print Atlas Feature(s) to Image</source>
-        <translation type="unfinished"/>
+        <translation type="vanished">Imprimir recurso(s) do Atlas em imagem</translation>
     </message>
     <message>
         <source>Print Atlas Feature to Image</source>
-        <translation type="unfinished"/>
+        <translation type="vanished">Imprimir recurso do Atlas como imagem</translation>
     </message>
     <message>
         <source>Print Atlas Feature(s)</source>
@@ -1837,7 +1846,7 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Atlas feature(s) successfully printed and placed in your project folder</source>
-        <translation type="unfinished"/>
+        <translation>Recurso(s) do Atlas impressos com sucesso e colocados na pasta do seu projeto</translation>
     </message>
     <message>
         <source>Feature attributes updated from clipboard</source>
@@ -1853,7 +1862,7 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Process Selected Feature(s)</source>
-        <translation type="unfinished"/>
+        <translation>Processar recurso(s) selecionado(s) </translation>
     </message>
     <message>
         <source>Rotate Feature</source>
@@ -1865,11 +1874,11 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Process Feature</source>
-        <translation type="unfinished"/>
+        <translation>Recurso do processo</translation>
     </message>
     <message>
         <source>Feature copied to clipboard</source>
-        <translation type="unfinished"/>
+        <translation>Recurso copiado para a área de transferência</translation>
     </message>
     <message>
         <source>Feature cut into clipboard</source>
@@ -1958,7 +1967,7 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Hard constraints not satisfied</source>
-        <translation type="unfinished"/>
+        <translation>Restrições rígidas não satisfeitas</translation>
     </message>
 </context>
 <context>
@@ -2056,7 +2065,7 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Uninstall plugin</source>
-        <translation type="unfinished"/>
+        <translation>Desinstalar plugin</translation>
     </message>
 </context>
 <context>
@@ -2090,27 +2099,27 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     <name>PluginManagerSettings</name>
     <message>
         <source>Plugins</source>
-        <translation type="unfinished"/>
+        <translation>Extensão</translation>
     </message>
     <message>
         <source>Install plugin from URL</source>
-        <translation type="unfinished"/>
+        <translation>Instale a extensão a partir da URL</translation>
     </message>
     <message>
         <source>Clear remembered permissions</source>
-        <translation type="unfinished"/>
+        <translation>Limpar permissões gravadas</translation>
     </message>
     <message>
         <source>Type a URL below to download and install a plugin:</source>
-        <translation type="unfinished"/>
+        <translation>Coloque a URL abaixo para baixar e instalar a extensão:</translation>
     </message>
     <message>
         <source>Installing %1</source>
-        <translation type="unfinished"/>
+        <translation>Instalando % 1</translation>
     </message>
     <message>
         <source>Are you sure you want to uninstall `%1`?</source>
-        <translation type="unfinished"/>
+        <translation>Tem a certeza que quer desinstalar `%1`?</translation>
     </message>
     <message>
         <source>The author details shown above are self-reported by the plugin and not independently verified. Please make sure you trust the plugin&apos;s origin.</source>
@@ -2122,19 +2131,19 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Local Plugins</source>
-        <translation type="unfinished"/>
+        <translation>Extensões Locais</translation>
     </message>
     <message>
         <source>Available Plugins</source>
-        <translation type="unfinished"/>
+        <translation>Extensões disponíveis</translation>
     </message>
     <message>
         <source>Search for plugin</source>
-        <translation type="unfinished"/>
+        <translation>Procurar extensão</translation>
     </message>
     <message>
         <source>Fetching available plugins</source>
-        <translation type="unfinished"/>
+        <translation>Buscando extensões disponíveis</translation>
     </message>
     <message>
         <source>No plugins have been installed yet, switch to the %1available plugins%3 tab to try some right away.&lt;br&gt;&lt;br&gt;For more information, %2read the documentation%3.</source>
@@ -2239,11 +2248,11 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Bluetooth</source>
-        <translation type="unfinished"/>
+        <translation type="vanished">Bluetooth</translation>
     </message>
     <message>
         <source>Bluetooth (NMEA)</source>
-        <translation type="unfinished"/>
+        <translation>Bluetooth (NMEA)</translation>
     </message>
     <message>
         <source>TCP (NMEA)</source>
@@ -2452,7 +2461,7 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     <name>ProjectCreationScreen</name>
     <message>
         <source>Create a new project</source>
-        <translation type="unfinished"/>
+        <translation>Criar novo projeto</translation>
     </message>
     <message>
         <source>This page will guide you through the creation of a simple project through simple configuration toggles. For more advanced needs, we advise you to create projects in QGIS using QFieldSync.</source>
@@ -2460,7 +2469,7 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>New project name</source>
-        <translation type="unfinished"/>
+        <translation>Novo nome do projeto</translation>
     </message>
     <message>
         <source>Select your basemap</source>
@@ -2512,58 +2521,58 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Record your location every second, along with date and time, to keep a precise track of your movements.</source>
-        <translation type="unfinished"/>
+        <translation>Registre sua localização a cada segundo, juntamente com a data e a hora, para manter um registro preciso de seus movimentos.</translation>
     </message>
     <message>
         <source>Begin tracking automatically</source>
-        <translation type="unfinished"/>
+        <translation>Comece a rastrear automaticamente</translation>
     </message>
     <message>
         <source>Backup &amp; collaborate?</source>
-        <translation type="unfinished"/>
+        <translation>Fazer backup &amp; colaborar?</translation>
     </message>
     <message>
         <source>QFieldCloud allows to synchronize and merge the data collected by your team in QField. From small individual projects to large data collection campaigns. </source>
-        <translation type="unfinished"/>
+        <translation>O QFieldCloud permite sincronizar e mesclar os dados coletados pela sua equipe no QField. Desde pequenos projetos individuais até grandes campanhas de coleta de dados.</translation>
     </message>
     <message>
         <source>Learn more about QFieldCloud here</source>
-        <translation type="unfinished"/>
+        <translation>Saiba mais sobre o QFieldCloud aqui</translation>
     </message>
     <message>
         <source>Create Project</source>
-        <translation type="unfinished"/>
+        <translation>Criar projeto</translation>
     </message>
     <message>
         <source>My Project</source>
-        <translation type="unfinished"/>
+        <translation>Meu Projeto</translation>
     </message>
 </context>
 <context>
     <name>ProjectUtils</name>
     <message>
         <source>Created Project</source>
-        <translation type="unfinished"/>
+        <translation>Projeto criado</translation>
     </message>
     <message>
         <source>Notes</source>
-        <translation type="unfinished"/>
+        <translation>Notas</translation>
     </message>
     <message>
         <source>Time</source>
-        <translation type="unfinished"/>
+        <translation>Tempo</translation>
     </message>
     <message>
         <source>Marker color</source>
-        <translation type="unfinished"/>
+        <translation>Cor do marcador</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation type="unfinished"/>
+        <translation>Titulo</translation>
     </message>
     <message>
         <source>Note</source>
-        <translation type="unfinished"/>
+        <translation>Anotações</translation>
     </message>
     <message>
         <source>Tracks</source>
@@ -2571,7 +2580,7 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Basemap</source>
-        <translation type="unfinished"/>
+        <translation>Mapa base</translation>
     </message>
     <message>
         <source>Media</source>
@@ -2636,11 +2645,11 @@ The features geometries will be combined into feature &apos;%1&apos;, which will
     </message>
     <message>
         <source>Latitude</source>
-        <translation type="unfinished"/>
+        <translation>Latitude</translation>
     </message>
     <message>
         <source>Longitude</source>
-        <translation type="unfinished"/>
+        <translation>Longitude</translation>
     </message>
     <message>
         <source>Altitude</source>
@@ -3243,7 +3252,7 @@ While you can still view and use the project, it is strongly recommended to rese
     </message>
     <message>
         <source>Synchronizing</source>
-        <translation type="unfinished"/>
+        <translation>Sincronizando</translation>
     </message>
 </context>
 <context>
@@ -3692,7 +3701,7 @@ While you can still view and use the project, it is strongly recommended to rese
     </message>
     <message>
         <source>Home</source>
-        <translation type="unfinished"/>
+        <translation>Página inicial</translation>
     </message>
     <message>
         <source>Item Actions</source>
@@ -4378,6 +4387,26 @@ Cancele para fazer uma verificação mínima.</translation>
         <source>When enabled, the map will automatically zoom to show all identified features, as well as the individual selected feature when the feature form is opened.</source>
         <translation type="unfinished"/>
     </message>
+    <message>
+        <source>Behavior when locked to position:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Follow position only</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Follow position and compass orientation</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Follow position and movement direction</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>When the map canvas is following or locked to position, it can also rotate to match compass orientation or movement direction.</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>QFieldSketcher</name>
@@ -4776,7 +4805,7 @@ Cancele para fazer uma verificação mínima.</translation>
     <name>Range</name>
     <message>
         <source>Empty</source>
-        <translation type="unfinished"/>
+        <translation>Vazio</translation>
     </message>
     <message>
         <source>NULL</source>
@@ -4841,7 +4870,7 @@ Cancele para fazer uma verificação mínima.</translation>
     </message>
     <message>
         <source>Empty</source>
-        <translation type="unfinished"/>
+        <translation>Vazio</translation>
     </message>
     <message>
         <source>NULL</source>
@@ -4908,7 +4937,7 @@ Cancele para fazer uma verificação mínima.</translation>
     </message>
     <message>
         <source>Atlas feature(s) successfully printed and placed in your project folder</source>
-        <translation type="unfinished"/>
+        <translation>Recursos do Atlas impressos com sucesso e colocados na pasta do seu projeto</translation>
     </message>
     <message numerus="yes">
         <source>%n feature(s)</source>
@@ -5095,7 +5124,7 @@ Cancele para fazer uma verificação mínima.</translation>
     </message>
     <message>
         <source>Empty</source>
-        <translation type="unfinished"/>
+        <translation>Vazio</translation>
     </message>
     <message>
         <source>NULL</source>
@@ -5518,6 +5547,62 @@ Cancele para fazer uma verificação mínima.</translation>
         <source>Failed to upload file %1 due to network error (%2)</source>
         <translation type="unfinished"/>
     </message>
+    <message>
+        <source>Upload finished.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>No local paths provided.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>WebDAV is busy.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Not a WebDAV imported project.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>WebDAV config is missing required fields.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>No stored password available.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Selected items belong to different WebDAV projects.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Nothing to upload.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>No local changes detected.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Upload cancelled.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Upload skipped.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Upload is locked by another process.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Failed to read WebDAV config file.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Invalid WebDAV config JSON.</source>
+        <translation type="unfinished"/>
+    </message>
 </context>
 <context>
     <name>WelcomeScreen</name>
@@ -5646,7 +5731,7 @@ projects</source>
     <message>
         <source>Create new
 project</source>
-        <translation type="unfinished"/>
+        <translation>Criar novo projeto</translation>
     </message>
 </context>
 <context>
@@ -6499,7 +6584,7 @@ project</source>
     </message>
     <message>
         <source>Project folder</source>
-        <translation type="unfinished"/>
+        <translation>Pasta do Projeto</translation>
     </message>
     <message>
         <source>Open the project folder to access project files, data sources, and related documents. Useful for managing project resources, manually uploading data to QFieldCloud, and sharing datasets, attachments, and layouts.</source>
@@ -6507,7 +6592,7 @@ project</source>
     </message>
     <message>
         <source>Legend</source>
-        <translation type="unfinished"/>
+        <translation>Legenda</translation>
     </message>
     <message>
         <source>The legend shows map layers and allows you to toggle visibility and opacity properties by &lt;b&gt;long-pressing on a layer to open a properties popup&lt;/b&gt;. The popup offers additional functionalities such as zooming to layer extent and displaying features contained within vector layers.</source>
@@ -6612,6 +6697,26 @@ to show actions</source>
     </message>
     <message>
         <source>Positioning service has not yet received a valid location</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Map canvas locked to location and movement direction</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Map canvas follows location and movement direction</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Failed to load 3D view</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Loading terrain...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Close 3D view</source>
         <translation type="unfinished"/>
     </message>
 </context>
