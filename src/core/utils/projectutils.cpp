@@ -180,8 +180,8 @@ QString ProjectUtils::createProject( const QVariantMap &options, const GnssPosit
       widgetSetup = QgsEditorWidgetSetup( QStringLiteral( "Color" ), widgetOptions );
       notesLayer->setEditorWidgetSetup( fieldIndex, widgetSetup );
       notesLayer->setDefaultValueDefinition( fieldIndex, QgsDefaultValue( QStringLiteral( "'#377eb8'" ), false ) );
-      //notesLayer->setFieldAlias( fieldIndex, tr( "Marker color" ) );
-      notesLayer->setFieldAlias( fieldIndex, tr( "마커 색상" ) );
+      notesLayer->setFieldAlias( fieldIndex, tr( "Marker color" ) );
+      //notesLayer->setFieldAlias( fieldIndex, tr( "마커 색상" ) );
     }
 
     // Configure note field
@@ -211,8 +211,8 @@ QString ProjectUtils::createProject( const QVariantMap &options, const GnssPosit
     if ( options.value( QStringLiteral( "camera_capture" ) ).toBool() )
     {
       // Configure camera field
-      //fieldIndex = fields.indexOf( QStringLiteral( "media" ) );
-      fieldIndex = fields.indexOf( QStringLiteral( "사진 / 영상" ) );
+      fieldIndex = fields.indexOf( QStringLiteral( "media" ) );
+      //fieldIndex = fields.indexOf( QStringLiteral( "사진 / 영상" ) );
       if ( fieldIndex >= 0 )
       {
         widgetOptions.clear();
